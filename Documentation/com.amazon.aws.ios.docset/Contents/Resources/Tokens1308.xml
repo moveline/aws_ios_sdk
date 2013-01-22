@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSMessageNotInflightException.html">
+	<File path="Classes/SQSInvalidMessageContentsException.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSMessageNotInflightException</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSInvalidMessageContentsException</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;
-The message referred to is not in flight.
+The message contains characters outside the allowed set.
 &lt;/p&gt;</Abstract>
-			<DeclaredIn>SQSMessageNotInflightException.h</DeclaredIn>
+			<DeclaredIn>SQSInvalidMessageContentsException.h</DeclaredIn>
 			
 			<NodeRef refid="1308"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSMessageNotInflightException/initWithMessage:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSInvalidMessageContentsException/initWithMessage:</TokenIdentifier>
 			<Abstract type="html">Initialize the exception with a message.</Abstract>
-			<DeclaredIn>SQSMessageNotInflightException.h</DeclaredIn>			
+			<DeclaredIn>SQSInvalidMessageContentsException.h</DeclaredIn>			
 			
 			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
 			<Parameters>
@@ -30,10 +30,10 @@ The message referred to is not in flight.
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSMessageNotInflightException/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSInvalidMessageContentsException/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SQSMessageNotInflightException.h</DeclaredIn>			
+			<DeclaredIn>SQSInvalidMessageContentsException.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

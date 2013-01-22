@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/EC2UnmonitorInstancesResponseUnmarshaller.html">
+	<File path="Classes/EC2UnmonitorInstancesRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/EC2UnmonitorInstancesResponseUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Unmonitor Instances Response Unmarshaller</Abstract>
-			<DeclaredIn>EC2UnmonitorInstancesResponseUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2UnmonitorInstancesRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Unmonitor Instances Request Marshaller</Abstract>
+			<DeclaredIn>EC2UnmonitorInstancesRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="816"/>
 		</Token>

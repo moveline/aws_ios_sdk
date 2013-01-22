@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESListIdentitiesRequestMarshaller.html">
+	<File path="Classes/SESIdentityDkimAttributesUnmarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESListIdentitiesRequestMarshaller</TokenIdentifier>
-			<Abstract type="html">List Identities Request Marshaller</Abstract>
-			<DeclaredIn>SESListIdentitiesRequestMarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESIdentityDkimAttributesUnmarshaller</TokenIdentifier>
+			<Abstract type="html">Identity Dkim Attributes Unmarshaller</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributesUnmarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1141"/>
 		</Token>

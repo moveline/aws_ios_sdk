@@ -198,6 +198,50 @@ only be launched within a VPC.</Abstract>
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">The value of the NextToken property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">The value of the NextToken property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">The value of the MaxResults property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">The value of the MaxResults property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/addReservedInstancesOfferingId:</TokenIdentifier>
 			<Abstract type="html">Adds a single object to reservedInstancesOfferingIds.
 This function will alloc and init reservedInstancesOfferingIds if not already done.</Abstract>

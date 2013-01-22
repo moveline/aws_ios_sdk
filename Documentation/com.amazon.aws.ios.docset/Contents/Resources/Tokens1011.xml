@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/S3DeleteBucketPolicyResponse.html">
+	<File path="Classes/S3DeleteBucketCrossOriginResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketPolicyResponse</TokenIdentifier>
-			<Abstract type="html">Contains all the information about the deleteBucketPolicy operation.</Abstract>
-			<DeclaredIn>S3DeleteBucketPolicyResponse.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketCrossOriginResponse</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the deleteBucketCrossOriginResponse operation.</Abstract>
+			<DeclaredIn>S3DeleteBucketCrossOriginResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1011"/>
 		</Token>

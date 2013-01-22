@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSGetQueueAttributesRequestMarshaller.html">
+	<File path="Classes/SQSDeleteMessageResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSGetQueueAttributesRequestMarshaller</TokenIdentifier>
-			<Abstract type="html">Get Queue Attributes Request Marshaller</Abstract>
-			<DeclaredIn>SQSGetQueueAttributesRequestMarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteMessageResponse</TokenIdentifier>
+			<Abstract type="html">Delete Message</Abstract>
+			<DeclaredIn>SQSDeleteMessageResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1292"/>
 		</Token>

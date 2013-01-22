@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESVerifyDomainDkimResponse.html">
+	<File path="Classes/SESSetIdentityNotificationTopicRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainDkimResponse</TokenIdentifier>
-			<Abstract type="html">Verify Domain Dkim Result</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimResponse.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityNotificationTopicRequest</TokenIdentifier>
+			<Abstract type="html">Set Identity Notification Topic Request</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>
 			
 			<NodeRef refid="1177"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimResponse/setException:</TokenIdentifier>
-			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimResponse.h</DeclaredIn>			
-			
-			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
-			
-			
-			<Anchor>//api/name/setException:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimResponse/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimResponse.h</DeclaredIn>			
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -35,49 +24,92 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimResponse/setDkimTokens:</TokenIdentifier>
-			<Abstract type="html">A set of DNS records (tokens) that must be published in the domain
-name&apos;s DNS for DKIM verification to complete, and which must remain
-published in order for DKIM signing to succeed. The tokens are CNAME
-DNS records pointing to DKIM public keys hosted by Amazon SES.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/setIdentity:</TokenIdentifier>
+			<Abstract type="html">The identity for which the topic will be set. Examples:
+&lt;code&gt;user@example.com&lt;/code&gt;, &lt;code&gt;example.com&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *dkimTokens</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *identity</Declaration>
 			
 			
-			<Anchor>//api/name/dkimTokens</Anchor>
+			<Anchor>//api/name/identity</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SESVerifyDomainDkimResponse/dkimTokens</TokenIdentifier>
-			<Abstract type="html">A set of DNS records (tokens) that must be published in the domain
-name&apos;s DNS for DKIM verification to complete, and which must remain
-published in order for DKIM signing to succeed. The tokens are CNAME
-DNS records pointing to DKIM public keys hosted by Amazon SES.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SESSetIdentityNotificationTopicRequest/identity</TokenIdentifier>
+			<Abstract type="html">The identity for which the topic will be set. Examples:
+&lt;code&gt;user@example.com&lt;/code&gt;, &lt;code&gt;example.com&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *dkimTokens</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *identity</Declaration>
 			
 			
-			<Anchor>//api/name/dkimTokens</Anchor>
+			<Anchor>//api/name/identity</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimResponse/dkimTokensObjectAtIndex:</TokenIdentifier>
-			<Abstract type="html">Returns a value from the dkimTokens array for the specified index</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/setNotificationType:</TokenIdentifier>
+			<Abstract type="html">The type of feedback notifications that will be published to the
+specified topic.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Bounce, Complaint</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
 			
-			<Declaration>- (NSString *)dkimTokensObjectAtIndex:(int)index</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *notificationType</Declaration>
 			
 			
-			<Anchor>//api/name/dkimTokensObjectAtIndex:</Anchor>
+			<Anchor>//api/name/notificationType</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimResponse/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSetIdentityNotificationTopicRequest/notificationType</TokenIdentifier>
+			<Abstract type="html">The type of feedback notifications that will be published to the
+specified topic.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Bounce, Complaint</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *notificationType</Declaration>
+			
+			
+			<Anchor>//api/name/notificationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/setSnsTopic:</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the Amazon Simple Notification
+Service (Amazon SNS) topic. If the parameter is ommited from the
+request or a null value is passed, the topic is cleared and publishing
+is disabled.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snsTopic</Declaration>
+			
+			
+			<Anchor>//api/name/snsTopic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSetIdentityNotificationTopicRequest/snsTopic</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the Amazon Simple Notification
+Service (Amazon SNS) topic. If the parameter is ommited from the
+request or a null value is passed, the topic is cleared and publishing
+is disabled.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snsTopic</Declaration>
+			
+			
+			<Anchor>//api/name/snsTopic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimResponse.h</DeclaredIn>			
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

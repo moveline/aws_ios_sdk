@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingDescribeLoadBalancerPoliciesResponseUnmarshaller.html">
+	<File path="Classes/ElasticLoadBalancingDescribeLoadBalancerPoliciesRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancerPoliciesResponseUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Describe Load Balancer Policies Result Unmarshaller</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPoliciesResponseUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancerPoliciesRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Describe Load Balancer Policies Request Marshaller</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPoliciesRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="891"/>
 		</Token>

@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SNSListTopicsResponse.html">
+	<File path="Classes/SNSListSubscriptionsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SNSListTopicsResponse</TokenIdentifier>
-			<Abstract type="html">List Topics Result</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsRequest</TokenIdentifier>
+			<Abstract type="html">List Subscriptions Request</Abstract>
+			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>
 			
 			<NodeRef refid="1225"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListTopicsResponse/setException:</TokenIdentifier>
-			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">Token returned by the previous ListSubscriptions request.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
 			
-			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/setException:</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListTopicsResponse/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instp/SNSListSubscriptionsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">Token returned by the previous ListSubscriptions request.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ListSubscriptionsRequest object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>			
+			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -35,67 +46,28 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListTopicsResponse/setTopics:</TokenIdentifier>
-			<Abstract type="html">A list of topic ARNs.</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsRequest/initWithNextToken:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ListSubscriptionsRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *topics</Declaration>
+			<Declaration>- (id)initWithNextToken:(NSString *)theNextToken</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theNextToken</Name>
+					<Abstract type="html">Token returned by the previous ListSubscriptions
+request.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/topics</Anchor>
+			<Anchor>//api/name/initWithNextToken:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SNSListTopicsResponse/topics</TokenIdentifier>
-			<Abstract type="html">A list of topic ARNs.</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *topics</Declaration>
-			
-			
-			<Anchor>//api/name/topics</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListTopicsResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">Token to pass along to the next ListTopics request. This element is
-returned if there are additional topics to retrieve.</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SNSListTopicsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">Token to pass along to the next ListTopics request. This element is
-returned if there are additional topics to retrieve.</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListTopicsResponse/topicsObjectAtIndex:</TokenIdentifier>
-			<Abstract type="html">Returns a value from the topics array for the specified index</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>			
-			
-			<Declaration>- (SNSTopic *)topicsObjectAtIndex:(int)index</Declaration>
-			
-			
-			<Anchor>//api/name/topicsObjectAtIndex:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListTopicsResponse/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsRequest/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SNSListTopicsResponse.h</DeclaredIn>			
+			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

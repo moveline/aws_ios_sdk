@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESListVerifiedEmailAddressesRequestMarshaller.html">
+	<File path="Classes/SESIdentityVerificationAttributesUnmarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESListVerifiedEmailAddressesRequestMarshaller</TokenIdentifier>
-			<Abstract type="html">List Verified Email Addresses Request Marshaller</Abstract>
-			<DeclaredIn>SESListVerifiedEmailAddressesRequestMarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESIdentityVerificationAttributesUnmarshaller</TokenIdentifier>
+			<Abstract type="html">Identity Verification Attributes Unmarshaller</Abstract>
+			<DeclaredIn>SESIdentityVerificationAttributesUnmarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1145"/>
 		</Token>

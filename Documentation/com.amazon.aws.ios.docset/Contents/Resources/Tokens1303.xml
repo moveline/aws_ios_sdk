@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSListQueuesRequest.html">
+	<File path="Classes/SQSGetQueueUrlResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSListQueuesRequest</TokenIdentifier>
-			<Abstract type="html">List Queues Request</Abstract>
-			<DeclaredIn>SQSListQueuesRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSGetQueueUrlResponse</TokenIdentifier>
+			<Abstract type="html">Get Queue Url Result</Abstract>
+			<DeclaredIn>SQSGetQueueUrlResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1303"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesRequest/setQueueNamePrefix:</TokenIdentifier>
-			<Abstract type="html">A string to use for filtering the list results. Only those queues
-whose name begins with the specified string are returned.</Abstract>
-			<DeclaredIn>SQSListQueuesRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueUrlResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SQSGetQueueUrlResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *queueNamePrefix</Declaration>
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
 			
 			
-			<Anchor>//api/name/queueNamePrefix</Anchor>
+			<Anchor>//api/name/setException:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SQSListQueuesRequest/queueNamePrefix</TokenIdentifier>
-			<Abstract type="html">A string to use for filtering the list results. Only those queues
-whose name begins with the specified string are returned.</Abstract>
-			<DeclaredIn>SQSListQueuesRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *queueNamePrefix</Declaration>
-			
-			
-			<Anchor>//api/name/queueNamePrefix</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesRequest/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new ListQueuesRequest object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueUrlResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SQSListQueuesRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSGetQueueUrlResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -48,29 +35,32 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesRequest/initWithQueueNamePrefix:</TokenIdentifier>
-			<Abstract type="html">Constructs a new ListQueuesRequest object.
-Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>SQSListQueuesRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueUrlResponse/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">The URL for the queue.</Abstract>
+			<DeclaredIn>SQSGetQueueUrlResponse.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithQueueNamePrefix:(NSString *)theQueueNamePrefix</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theQueueNamePrefix</Name>
-					<Abstract type="html">A string to use for filtering the list
-results. Only those queues whose name begins with the specified string
-are returned.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
 			
-			<Anchor>//api/name/initWithQueueNamePrefix:</Anchor>
+			
+			<Anchor>//api/name/queueUrl</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSGetQueueUrlResponse/queueUrl</TokenIdentifier>
+			<Abstract type="html">The URL for the queue.</Abstract>
+			<DeclaredIn>SQSGetQueueUrlResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueUrlResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SQSListQueuesRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSGetQueueUrlResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

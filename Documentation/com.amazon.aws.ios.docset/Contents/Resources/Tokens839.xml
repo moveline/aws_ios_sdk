@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingApplySecurityGroupsToLoadBalancerResponseUnmarshaller.html">
+	<File path="Classes/ElasticLoadBalancingApplySecurityGroupsToLoadBalancerRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingApplySecurityGroupsToLoadBalancerResponseUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Apply Security Groups To Load Balancer Result Unmarshaller</Abstract>
-			<DeclaredIn>ElasticLoadBalancingApplySecurityGroupsToLoadBalancerResponseUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingApplySecurityGroupsToLoadBalancerRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Apply Security Groups To Load Balancer Request Marshaller</Abstract>
+			<DeclaredIn>ElasticLoadBalancingApplySecurityGroupsToLoadBalancerRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="839"/>
 		</Token>

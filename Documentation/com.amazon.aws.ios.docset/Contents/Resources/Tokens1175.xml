@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESVerifyDomainDkimRequest.html">
+	<File path="Classes/SESSetIdentityFeedbackForwardingEnabledResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainDkimRequest</TokenIdentifier>
-			<Abstract type="html">Verify Domain Dkim Request</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityFeedbackForwardingEnabledResponse</TokenIdentifier>
+			<Abstract type="html">Set Identity Feedback Forwarding Enabled Result</Abstract>
+			<DeclaredIn>SESSetIdentityFeedbackForwardingEnabledResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1175"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimRequest/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityFeedbackForwardingEnabledResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SESSetIdentityFeedbackForwardingEnabledResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityFeedbackForwardingEnabledResponse/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>			
+			<DeclaredIn>SESSetIdentityFeedbackForwardingEnabledResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -24,32 +35,10 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimRequest/setDomain:</TokenIdentifier>
-			<Abstract type="html">The name of the domain to be verified for Easy DKIM signing.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
-			
-			
-			<Anchor>//api/name/domain</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SESVerifyDomainDkimRequest/domain</TokenIdentifier>
-			<Abstract type="html">The name of the domain to be verified for Easy DKIM signing.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
-			
-			
-			<Anchor>//api/name/domain</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityFeedbackForwardingEnabledResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>			
+			<DeclaredIn>SESSetIdentityFeedbackForwardingEnabledResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

@@ -1,73 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SNSListSubscriptionsRequest.html">
+	<File path="Classes/SNSInternalErrorException.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsRequest</TokenIdentifier>
-			<Abstract type="html">List Subscriptions Request</Abstract>
-			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSInternalErrorException</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Indicates an internal service error.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>SNSInternalErrorException.h</DeclaredIn>
 			
 			<NodeRef refid="1219"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsRequest/setNextToken:</TokenIdentifier>
-			<Abstract type="html">Token returned by the previous ListSubscriptions request.</Abstract>
-			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SNSInternalErrorException/initWithMessage:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a message.</Abstract>
+			<DeclaredIn>SNSInternalErrorException.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SNSListSubscriptionsRequest/nextToken</TokenIdentifier>
-			<Abstract type="html">Token returned by the previous ListSubscriptions request.</Abstract>
-			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsRequest/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new ListSubscriptionsRequest object.  Callers should use the
-property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
-			
-			<Declaration>- (id)init</Declaration>
-			
-			
-			<Anchor>//api/name/init</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsRequest/initWithNextToken:</TokenIdentifier>
-			<Abstract type="html">Constructs a new ListSubscriptionsRequest object.
-Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
-			
-			<Declaration>- (id)initWithNextToken:(NSString *)theNextToken</Declaration>
+			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>theNextToken</Name>
-					<Abstract type="html">Token returned by the previous ListSubscriptions
-request.</Abstract>
+					<Name>message</Name>
+					<Abstract type="html">The message.</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/initWithNextToken:</Anchor>
+			<Anchor>//api/name/initWithMessage:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSInternalErrorException/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SNSListSubscriptionsRequest.h</DeclaredIn>			
+			<DeclaredIn>SNSInternalErrorException.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

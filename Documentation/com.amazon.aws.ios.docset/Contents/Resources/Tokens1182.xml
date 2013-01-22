@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESVerifyDomainIdentityResponseUnmarshaller.html">
+	<File path="Classes/SESVerifyDomainDkimRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainIdentityResponseUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Verify Domain Identity Result Unmarshaller</Abstract>
-			<DeclaredIn>SESVerifyDomainIdentityResponseUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainDkimRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Verify Domain Dkim Request Marshaller</Abstract>
+			<DeclaredIn>SESVerifyDomainDkimRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1182"/>
 		</Token>

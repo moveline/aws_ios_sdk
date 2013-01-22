@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/EC2UserIdGroupPair.html">
+	<File path="Classes/EC2UnmonitorInstancesResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/EC2UserIdGroupPair</TokenIdentifier>
-			<Abstract type="html">User Id Group Pair</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2UnmonitorInstancesResponse</TokenIdentifier>
+			<Abstract type="html">Unmonitor Instances Response</Abstract>
+			<DeclaredIn>EC2UnmonitorInstancesResponse.h</DeclaredIn>
 			
 			<NodeRef refid="817"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2UserIdGroupPair/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2UnmonitorInstancesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2UnmonitorInstancesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2UnmonitorInstancesResponse/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>			
+			<DeclaredIn>EC2UnmonitorInstancesResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -24,80 +35,45 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2UserIdGroupPair/setUserId:</TokenIdentifier>
-			<Abstract type="html">The AWS user ID of an account.</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/EC2UnmonitorInstancesResponse/setInstanceMonitorings:</TokenIdentifier>
+			<Abstract type="html">A list of updated monitoring information for the instances specified
+in the request.</Abstract>
+			<DeclaredIn>EC2UnmonitorInstancesResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *userId</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instanceMonitorings</Declaration>
 			
 			
-			<Anchor>//api/name/userId</Anchor>
+			<Anchor>//api/name/instanceMonitorings</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/EC2UserIdGroupPair/userId</TokenIdentifier>
-			<Abstract type="html">The AWS user ID of an account.</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/EC2UnmonitorInstancesResponse/instanceMonitorings</TokenIdentifier>
+			<Abstract type="html">A list of updated monitoring information for the instances specified
+in the request.</Abstract>
+			<DeclaredIn>EC2UnmonitorInstancesResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *userId</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instanceMonitorings</Declaration>
 			
 			
-			<Anchor>//api/name/userId</Anchor>
+			<Anchor>//api/name/instanceMonitorings</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2UserIdGroupPair/setGroupName:</TokenIdentifier>
-			<Abstract type="html">Name of the security group in the specified AWS account. Cannot be
-used when specifying a CIDR IP address range.</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/EC2UnmonitorInstancesResponse/instanceMonitoringsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the instanceMonitorings array for the specified index</Abstract>
+			<DeclaredIn>EC2UnmonitorInstancesResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *groupName</Declaration>
+			<Declaration>- (EC2InstanceMonitoring *)instanceMonitoringsObjectAtIndex:(int)index</Declaration>
 			
 			
-			<Anchor>//api/name/groupName</Anchor>
+			<Anchor>//api/name/instanceMonitoringsObjectAtIndex:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/EC2UserIdGroupPair/groupName</TokenIdentifier>
-			<Abstract type="html">Name of the security group in the specified AWS account. Cannot be
-used when specifying a CIDR IP address range.</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *groupName</Declaration>
-			
-			
-			<Anchor>//api/name/groupName</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2UserIdGroupPair/setGroupId:</TokenIdentifier>
-			<Abstract type="html">ID of the security group in the specified AWS account. Cannot be used
-when specifying a CIDR IP address range.</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *groupId</Declaration>
-			
-			
-			<Anchor>//api/name/groupId</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/EC2UserIdGroupPair/groupId</TokenIdentifier>
-			<Abstract type="html">ID of the security group in the specified AWS account. Cannot be used
-when specifying a CIDR IP address range.</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *groupId</Declaration>
-			
-			
-			<Anchor>//api/name/groupId</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2UserIdGroupPair/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2UnmonitorInstancesResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>EC2UserIdGroupPair.h</DeclaredIn>			
+			<DeclaredIn>EC2UnmonitorInstancesResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSChangeMessageVisibilityRequest.html">
+	<File path="Classes/SQSChangeMessageVisibilityBatchRequestEntry.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSChangeMessageVisibilityRequest</TokenIdentifier>
-			<Abstract type="html">Change Message Visibility Request</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSChangeMessageVisibilityBatchRequestEntry</TokenIdentifier>
+			<Abstract type="html">Change Message Visibility Batch Request Entry</Abstract>
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>
 			
 			<NodeRef refid="1270"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityRequest/setQueueUrl:</TokenIdentifier>
-			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityBatchRequestEntry/setIdValue:</TokenIdentifier>
+			<Abstract type="html">An identifier for this particular receipt handle. This is used to
+communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch
+request need to be unique within the request.</Abstract>
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/idValue</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SQSChangeMessageVisibilityRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SQSChangeMessageVisibilityBatchRequestEntry/idValue</TokenIdentifier>
+			<Abstract type="html">An identifier for this particular receipt handle. This is used to
+communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch
+request need to be unique within the request.</Abstract>
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/idValue</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityRequest/setReceiptHandle:</TokenIdentifier>
-			<Abstract type="html">The receipt handle associated with the message whose visibility
-timeout should be changed.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityBatchRequestEntry/setReceiptHandle:</TokenIdentifier>
+			<Abstract type="html">A receipt handle.</Abstract>
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSString *receiptHandle</Declaration>
 			
@@ -46,10 +49,9 @@ timeout should be changed.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SQSChangeMessageVisibilityRequest/receiptHandle</TokenIdentifier>
-			<Abstract type="html">The receipt handle associated with the message whose visibility
-timeout should be changed.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SQSChangeMessageVisibilityBatchRequestEntry/receiptHandle</TokenIdentifier>
+			<Abstract type="html">A receipt handle.</Abstract>
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSString *receiptHandle</Declaration>
 			
@@ -58,9 +60,9 @@ timeout should be changed.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityRequest/setVisibilityTimeout:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityBatchRequestEntry/setVisibilityTimeout:</TokenIdentifier>
 			<Abstract type="html">The new value (in seconds) for the message&apos;s visibility timeout.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSNumber *visibilityTimeout</Declaration>
 			
@@ -69,9 +71,9 @@ timeout should be changed.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SQSChangeMessageVisibilityRequest/visibilityTimeout</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSChangeMessageVisibilityBatchRequestEntry/visibilityTimeout</TokenIdentifier>
 			<Abstract type="html">The new value (in seconds) for the message&apos;s visibility timeout.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSNumber *visibilityTimeout</Declaration>
 			
@@ -80,10 +82,10 @@ timeout should be changed.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityRequest/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new ChangeMessageVisibilityRequest object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityBatchRequestEntry/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ChangeMessageVisibilityBatchRequestEntry object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -92,35 +94,32 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityRequest/initWithQueueUrl:andReceiptHandle:andVisibilityTimeout:</TokenIdentifier>
-			<Abstract type="html">Constructs a new ChangeMessageVisibilityRequest object.
+			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityBatchRequestEntry/initWithIdValue:andReceiptHandle:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ChangeMessageVisibilityBatchRequestEntry object.
 Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl andReceiptHandle:(NSString *)theReceiptHandle andVisibilityTimeout:(NSNumber *)theVisibilityTimeout</Declaration>
+			<Declaration>- (id)initWithIdValue:(NSString *)theIdValue andReceiptHandle:(NSString *)theReceiptHandle</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>theQueueUrl</Name>
-					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+					<Name>theIdValue</Name>
+					<Abstract type="html">An identifier for this particular receipt handle.
+This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s
+of a batch request need to be unique within the request.</Abstract>
 				</Parameter><Parameter>
 					<Name>theReceiptHandle</Name>
-					<Abstract type="html">The receipt handle associated with the message
-whose visibility timeout should be changed.</Abstract>
-				</Parameter><Parameter>
-					<Name>theVisibilityTimeout</Name>
-					<Abstract type="html">The new value (in seconds) for the
-message&apos;s visibility timeout.</Abstract>
+					<Abstract type="html">A receipt handle.</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/initWithQueueUrl:andReceiptHandle:andVisibilityTimeout:</Anchor>
+			<Anchor>//api/name/initWithIdValue:andReceiptHandle:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSChangeMessageVisibilityBatchRequestEntry/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SQSChangeMessageVisibilityRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSChangeMessageVisibilityBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

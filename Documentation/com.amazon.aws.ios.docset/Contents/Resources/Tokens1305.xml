@@ -1,77 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSListQueuesResponse.html">
+	<File path="Classes/SQSInvalidAttributeNameException.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSListQueuesResponse</TokenIdentifier>
-			<Abstract type="html">List Queues Result</Abstract>
-			<DeclaredIn>SQSListQueuesResponse.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSInvalidAttributeNameException</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The attribute referred to does not exist.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>SQSInvalidAttributeNameException.h</DeclaredIn>
 			
 			<NodeRef refid="1305"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesResponse/setException:</TokenIdentifier>
-			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
-			<DeclaredIn>SQSListQueuesResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SQSInvalidAttributeNameException/initWithMessage:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a message.</Abstract>
+			<DeclaredIn>SQSInvalidAttributeNameException.h</DeclaredIn>			
 			
-			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/setException:</Anchor>
+			<Anchor>//api/name/initWithMessage:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesResponse/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new  object.  Callers should use the
-property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SQSListQueuesResponse.h</DeclaredIn>			
-			
-			<Declaration>- (id)init</Declaration>
-			
-			
-			<Anchor>//api/name/init</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesResponse/setQueueUrls:</TokenIdentifier>
-			<Abstract type="html">A list of queue URLs, up to 1000 entries.</Abstract>
-			<DeclaredIn>SQSListQueuesResponse.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *queueUrls</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrls</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SQSListQueuesResponse/queueUrls</TokenIdentifier>
-			<Abstract type="html">A list of queue URLs, up to 1000 entries.</Abstract>
-			<DeclaredIn>SQSListQueuesResponse.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *queueUrls</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrls</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesResponse/queueUrlsObjectAtIndex:</TokenIdentifier>
-			<Abstract type="html">Returns a value from the queueUrls array for the specified index</Abstract>
-			<DeclaredIn>SQSListQueuesResponse.h</DeclaredIn>			
-			
-			<Declaration>- (NSString *)queueUrlsObjectAtIndex:(int)index</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrlsObjectAtIndex:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSListQueuesResponse/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSInvalidAttributeNameException/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SQSListQueuesResponse.h</DeclaredIn>			
+			<DeclaredIn>SQSInvalidAttributeNameException.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

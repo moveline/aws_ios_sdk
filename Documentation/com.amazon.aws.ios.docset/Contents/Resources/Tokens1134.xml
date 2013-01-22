@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESIdentityDkimAttributes.html">
+	<File path="Classes/SESGetSendQuotaResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESIdentityDkimAttributes</TokenIdentifier>
-			<Abstract type="html">Identity Dkim Attributes</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESGetSendQuotaResponse</TokenIdentifier>
+			<Abstract type="html">Get Send Quota Result</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1134"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -24,110 +35,78 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/setDkimEnabled:</TokenIdentifier>
-			<Abstract type="html">True if DKIM signing is enabled for email sent from the identity;
-false otherwise.</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/setMax24HourSend:</TokenIdentifier>
+			<Abstract type="html">The maximum number of emails the user is allowed to send in a 24-hour
+interval.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic) bool dkimEnabled</Declaration>
+			<Declaration>@property (nonatomic, retain) NSNumber *max24HourSend</Declaration>
 			
 			
-			<Anchor>//api/name/dkimEnabled</Anchor>
+			<Anchor>//api/name/max24HourSend</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SESIdentityDkimAttributes/dkimEnabled</TokenIdentifier>
-			<Abstract type="html">True if DKIM signing is enabled for email sent from the identity;
-false otherwise.</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetSendQuotaResponse/max24HourSend</TokenIdentifier>
+			<Abstract type="html">The maximum number of emails the user is allowed to send in a 24-hour
+interval.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic) bool dkimEnabled</Declaration>
+			<Declaration>@property (nonatomic, retain) NSNumber *max24HourSend</Declaration>
 			
 			
-			<Anchor>//api/name/dkimEnabled</Anchor>
+			<Anchor>//api/name/max24HourSend</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/setDkimVerificationStatus:</TokenIdentifier>
-			<Abstract type="html">Describes whether Amazon SES has successfully verified the DKIM DNS
-records (tokens) published in the domain name&apos;s DNS. (This only
-applies to domain identities, not email address identities.)
-&lt;p&gt;
-&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
-&lt;b&gt;Allowed Values: &lt;/b&gt;Pending, Success, Failed, TemporaryFailure</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/setMaxSendRate:</TokenIdentifier>
+			<Abstract type="html">The maximum number of emails the user is allowed to send per second.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *dkimVerificationStatus</Declaration>
+			<Declaration>@property (nonatomic, retain) NSNumber *maxSendRate</Declaration>
 			
 			
-			<Anchor>//api/name/dkimVerificationStatus</Anchor>
+			<Anchor>//api/name/maxSendRate</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SESIdentityDkimAttributes/dkimVerificationStatus</TokenIdentifier>
-			<Abstract type="html">Describes whether Amazon SES has successfully verified the DKIM DNS
-records (tokens) published in the domain name&apos;s DNS. (This only
-applies to domain identities, not email address identities.)
-&lt;p&gt;
-&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
-&lt;b&gt;Allowed Values: &lt;/b&gt;Pending, Success, Failed, TemporaryFailure</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetSendQuotaResponse/maxSendRate</TokenIdentifier>
+			<Abstract type="html">The maximum number of emails the user is allowed to send per second.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *dkimVerificationStatus</Declaration>
+			<Declaration>@property (nonatomic, retain) NSNumber *maxSendRate</Declaration>
 			
 			
-			<Anchor>//api/name/dkimVerificationStatus</Anchor>
+			<Anchor>//api/name/maxSendRate</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/setDkimTokens:</TokenIdentifier>
-			<Abstract type="html">A set of DNS records (tokens) that must be published in the domain
-name&apos;s DNS for DKIM verification to complete, and which must remain
-published in order for DKIM signing to succeed. The tokens are
-&lt;code&gt;CNAME&lt;/code&gt; DNS records that point to DKIM public keys hosted
-by Amazon SES. (This only applies to domain entities, not email
-address identities.)</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/setSentLast24Hours:</TokenIdentifier>
+			<Abstract type="html">The number of emails sent during the previous 24 hours.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *dkimTokens</Declaration>
+			<Declaration>@property (nonatomic, retain) NSNumber *sentLast24Hours</Declaration>
 			
 			
-			<Anchor>//api/name/dkimTokens</Anchor>
+			<Anchor>//api/name/sentLast24Hours</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SESIdentityDkimAttributes/dkimTokens</TokenIdentifier>
-			<Abstract type="html">A set of DNS records (tokens) that must be published in the domain
-name&apos;s DNS for DKIM verification to complete, and which must remain
-published in order for DKIM signing to succeed. The tokens are
-&lt;code&gt;CNAME&lt;/code&gt; DNS records that point to DKIM public keys hosted
-by Amazon SES. (This only applies to domain entities, not email
-address identities.)</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetSendQuotaResponse/sentLast24Hours</TokenIdentifier>
+			<Abstract type="html">The number of emails sent during the previous 24 hours.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *dkimTokens</Declaration>
+			<Declaration>@property (nonatomic, retain) NSNumber *sentLast24Hours</Declaration>
 			
 			
-			<Anchor>//api/name/dkimTokens</Anchor>
+			<Anchor>//api/name/sentLast24Hours</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/addDkimToken:</TokenIdentifier>
-			<Abstract type="html">Adds a single object to dkimTokens.
-This function will alloc and init dkimTokens if not already done.</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
-			
-			<Declaration>- (void)addDkimToken:(NSString *)dkimTokenObject</Declaration>
-			
-			
-			<Anchor>//api/name/addDkimToken:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

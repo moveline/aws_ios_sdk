@@ -1,47 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/S3CompleteMultipartUploadRequest.html">
+	<File path="Classes/S3CORSRule.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/S3CompleteMultipartUploadRequest</TokenIdentifier>
-			<Abstract type="html">Contains the parameters used for the completeMultipartUpload operation.</Abstract>
-			<DeclaredIn>S3CompleteMultipartUploadRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CORSRule</TokenIdentifier>
+			<Abstract type="html">Container for rules of cross origin configuration.</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>
 			
 			<NodeRef refid="994"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadRequest/initWithMultipartUpload:</TokenIdentifier>
-			<Abstract type="html">Initialize the instance with the bucket, key, and uploadId from an S3MultipartUpload instance.</Abstract>
-			<DeclaredIn>S3CompleteMultipartUploadRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setRuleId:</TokenIdentifier>
+			<Abstract type="html">The Id of this rule.</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithMultipartUpload:(S3MultipartUpload *)multipartUpload</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *ruleId</Declaration>
 			
 			
-			<Anchor>//api/name/initWithMultipartUpload:</Anchor>
+			<Anchor>//api/name/ruleId</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadRequest/addPartWithPartNumber:withETag:</TokenIdentifier>
-			<Abstract type="html">Add a part by part number and the ETag that was returned by uploadPart.</Abstract>
-			<DeclaredIn>S3CompleteMultipartUploadRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/ruleId</TokenIdentifier>
+			<Abstract type="html">The Id of this rule.</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
 			
-			<Declaration>- (void)addPartWithPartNumber:(int)partNumber withETag:(NSString *)etag</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *ruleId</Declaration>
 			
 			
-			<Anchor>//api/name/addPartWithPartNumber:withETag:</Anchor>
+			<Anchor>//api/name/ruleId</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadRequest/requestBody</TokenIdentifier>
-			<Abstract type="html">Build the request body for the request</Abstract>
-			<DeclaredIn>S3CompleteMultipartUploadRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setAllowedMethods:</TokenIdentifier>
+			<Abstract type="html">The list of allowed methods (GET, PUT, DELETE, HEAD)</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
 			
-			<Declaration>- (NSData *)requestBody</Declaration>
+			<Declaration>@property (nonatomic, retain) NSArray *allowedMethods</Declaration>
 			
 			
-			<Anchor>//api/name/requestBody</Anchor>
+			<Anchor>//api/name/allowedMethods</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/allowedMethods</TokenIdentifier>
+			<Abstract type="html">The list of allowed methods (GET, PUT, DELETE, HEAD)</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedMethods</Declaration>
+			
+			
+			<Anchor>//api/name/allowedMethods</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setAllowedOrigins:</TokenIdentifier>
+			<Abstract type="html">The list of allowed origins</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedOrigins</Declaration>
+			
+			
+			<Anchor>//api/name/allowedOrigins</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/allowedOrigins</TokenIdentifier>
+			<Abstract type="html">The list of allowed origins</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedOrigins</Declaration>
+			
+			
+			<Anchor>//api/name/allowedOrigins</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setMaxAgeSeconds:</TokenIdentifier>
+			<Abstract type="html">Maximum age for this rule</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger maxAgeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/maxAgeSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/maxAgeSeconds</TokenIdentifier>
+			<Abstract type="html">Maximum age for this rule</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger maxAgeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/maxAgeSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setExposeHeaders:</TokenIdentifier>
+			<Abstract type="html">The list of exposed headers</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *exposeHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/exposeHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/exposeHeaders</TokenIdentifier>
+			<Abstract type="html">The list of exposed headers</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *exposeHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/exposeHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setAllowedHeaders:</TokenIdentifier>
+			<Abstract type="html">The list of allowed headers</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/allowedHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/allowedHeaders</TokenIdentifier>
+			<Abstract type="html">The list of allowed headers</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/allowedHeaders</Anchor>
 		</Token>
 		
 	</File>

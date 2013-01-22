@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingCreateAppCookieStickinessPolicyResponseUnmarshaller.html">
+	<File path="Classes/ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateAppCookieStickinessPolicyResponseUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Create App Cookie Stickiness Policy Result Unmarshaller</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateAppCookieStickinessPolicyResponseUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Create App Cookie Stickiness Policy Request Marshaller</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="854"/>
 		</Token>

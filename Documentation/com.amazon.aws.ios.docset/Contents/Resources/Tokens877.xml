@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingDeleteLoadBalancerRequest.html">
+	<File path="Classes/ElasticLoadBalancingDeleteLoadBalancerPolicyResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerRequest</TokenIdentifier>
-			<Abstract type="html">Delete Load Balancer Request</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerPolicyResponse</TokenIdentifier>
+			<Abstract type="html">Delete Load Balancer Policy Result</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerPolicyResponse.h</DeclaredIn>
 			
 			<NodeRef refid="877"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeleteLoadBalancerRequest/setLoadBalancerName:</TokenIdentifier>
-			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
-within the client AWS account.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeleteLoadBalancerPolicyResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerPolicyResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/setException:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDeleteLoadBalancerRequest/loadBalancerName</TokenIdentifier>
-			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
-within the client AWS account.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
-			
-			
-			<Anchor>//api/name/loadBalancerName</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeleteLoadBalancerRequest/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new DeleteLoadBalancerRequest object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeleteLoadBalancerPolicyResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerRequest.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerPolicyResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -48,28 +35,10 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeleteLoadBalancerRequest/initWithLoadBalancerName:</TokenIdentifier>
-			<Abstract type="html">Constructs a new DeleteLoadBalancerRequest object.
-Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerRequest.h</DeclaredIn>			
-			
-			<Declaration>- (id)initWithLoadBalancerName:(NSString *)theLoadBalancerName</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theLoadBalancerName</Name>
-					<Abstract type="html">The name associated with the LoadBalancer.
-The name must be unique within the client AWS account.</Abstract>
-				</Parameter>
-			</Parameters>
-			
-			<Anchor>//api/name/initWithLoadBalancerName:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeleteLoadBalancerRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeleteLoadBalancerPolicyResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerRequest.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerPolicyResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

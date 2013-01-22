@@ -1,286 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/S3Request.html">
+	<File path="Classes/S3Permission.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/S3Request</TokenIdentifier>
-			<Abstract type="html">Contains the parameters common to Amazon S3 operations.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/S3Permission</TokenIdentifier>
+			<Abstract type="html">An enumeration of all ACL permissions. For more information, refer:</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>
 			
 			<NodeRef refid="1082"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setAuthorization:</TokenIdentifier>
-			<Abstract type="html">The information required for request authentication.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/readPermission</TokenIdentifier>
+			<Abstract type="html">Read Permission.
+When applied to a bucket, grants permission to list the bucket.
+When applied to an object, this grants permission to read the
+object data and/or metadata.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *authorization</Declaration>
+			<Declaration>+ (S3Permission *)readPermission</Declaration>
 			
 			
-			<Anchor>//api/name/authorization</Anchor>
+			<Anchor>//api/name/readPermission</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/authorization</TokenIdentifier>
-			<Abstract type="html">The information required for request authentication.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/writePermission</TokenIdentifier>
+			<Abstract type="html">Write permission.
+When applied to a bucket, grants permission to create, overwrite,
+and delete any object in the bucket. This permission is not
+supported for objects.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *authorization</Declaration>
+			<Declaration>+ (S3Permission *)writePermission</Declaration>
 			
 			
-			<Anchor>//api/name/authorization</Anchor>
+			<Anchor>//api/name/writePermission</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setContentLength:</TokenIdentifier>
-			<Abstract type="html">Length of the message (without the headers) according to RFC 2616.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/fullControlPermission</TokenIdentifier>
+			<Abstract type="html">The union of the other permissions.
+Provides readPermission, writePermission, readAcpPermission, and writeAcpPermission.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic) int64_t contentLength</Declaration>
+			<Declaration>+ (S3Permission *)fullControlPermission</Declaration>
 			
 			
-			<Anchor>//api/name/contentLength</Anchor>
+			<Anchor>//api/name/fullControlPermission</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/contentLength</TokenIdentifier>
-			<Abstract type="html">Length of the message (without the headers) according to RFC 2616.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/readAcpPermission</TokenIdentifier>
+			<Abstract type="html">Grants permission to read the ACL for the applicable bucket or object.
+The owner of a bucket or object always has this permission implicitly.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic) int64_t contentLength</Declaration>
+			<Declaration>+ (S3Permission *)readAcpPermission</Declaration>
 			
 			
-			<Anchor>//api/name/contentLength</Anchor>
+			<Anchor>//api/name/readAcpPermission</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setContentType:</TokenIdentifier>
-			<Abstract type="html">The content type of the resource.
-Example: &lt;code&gt;text/plain&lt;/code&gt;</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/writeAcpPermission</TokenIdentifier>
+			<Abstract type="html">Gives permission to overwrite the Access Control Policy for the applicable bucket or object.
+The owner of a bucket or object always has this permission implicitly.
+Granting this permission is equivalent to granting FullControl because
+the grant recipient can make any changes to the ACP.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *contentType</Declaration>
+			<Declaration>+ (S3Permission *)writeAcpPermission</Declaration>
 			
 			
-			<Anchor>//api/name/contentType</Anchor>
+			<Anchor>//api/name/writeAcpPermission</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/contentType</TokenIdentifier>
-			<Abstract type="html">The content type of the resource.
-Example: &lt;code&gt;text/plain&lt;/code&gt;</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/permissionWithString:</TokenIdentifier>
+			<Abstract type="html">Get the permission by the string supplied.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *contentType</Declaration>
-			
-			
-			<Anchor>//api/name/contentType</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setDate:</TokenIdentifier>
-			<Abstract type="html">The current date and time according to the requester.
-Example: &lt;code&gt;Wed, 01 Mar 2009 12:00:00 GMT&lt;/code&gt;</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			<Declaration>+ (S3Permission *)permissionWithString:(NSString *)code</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/date</TokenIdentifier>
-			<Abstract type="html">The current date and time according to the requester.
-Example: &lt;code&gt;Wed, 01 Mar 2009 12:00:00 GMT&lt;/code&gt;</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
-			
-			
-			<Anchor>//api/name/date</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setHost:</TokenIdentifier>
-			<Abstract type="html">For path-style requests, the value is s3.amazonaws.com.
-For virtual-style requests, the value is BucketName.s3.amazonaws.com.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, readonly) NSString *host</Declaration>
-			
-			
-			<Anchor>//api/name/host</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/host</TokenIdentifier>
-			<Abstract type="html">For path-style requests, the value is s3.amazonaws.com.
-For virtual-style requests, the value is BucketName.s3.amazonaws.com.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, readonly) NSString *host</Declaration>
-			
-			
-			<Anchor>//api/name/host</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setSecurityToken:</TokenIdentifier>
-			<Abstract type="html">The security tokens for operations that use Amazon DevPay.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *securityToken</Declaration>
-			
-			
-			<Anchor>//api/name/securityToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/securityToken</TokenIdentifier>
-			<Abstract type="html">The security tokens for operations that use Amazon DevPay.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *securityToken</Declaration>
-			
-			
-			<Anchor>//api/name/securityToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setBucket:</TokenIdentifier>
-			<Abstract type="html">The name of the bucket</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
-			
-			
-			<Anchor>//api/name/bucket</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/bucket</TokenIdentifier>
-			<Abstract type="html">The name of the bucket</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
-			
-			
-			<Anchor>//api/name/bucket</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setKey:</TokenIdentifier>
-			<Abstract type="html">The name of the S3 object</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/key</TokenIdentifier>
-			<Abstract type="html">The name of the S3 object</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setSubResource:</TokenIdentifier>
-			<Abstract type="html">The sub-resource (i.e. acl, versioning, torrent) for the request</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *subResource</Declaration>
-			
-			
-			<Anchor>//api/name/subResource</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/subResource</TokenIdentifier>
-			<Abstract type="html">The sub-resource (i.e. acl, versioning, torrent) for the request</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *subResource</Declaration>
-			
-			
-			<Anchor>//api/name/subResource</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/setUrl:</TokenIdentifier>
-			<Abstract type="html">The URL for the resource.
-This property is read-only.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, readonly) NSURL *url</Declaration>
-			
-			
-			<Anchor>//api/name/url</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3Request/url</TokenIdentifier>
-			<Abstract type="html">The URL for the resource.
-This property is read-only.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, readonly) NSURL *url</Declaration>
-			
-			
-			<Anchor>//api/name/url</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/configureURLRequest</TokenIdentifier>
-			<Abstract type="html">Add appropriate headers to the URL Request object</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>- (AmazonURLRequest *)configureURLRequest</Declaration>
-			
-			
-			<Anchor>//api/name/configureURLRequest</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/timestamp</TokenIdentifier>
-			<Abstract type="html">The current date and time in a format which can be supplied in Amazon S3 requests.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>- (NSString *)timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/protocol</TokenIdentifier>
-			<Abstract type="html">Returns the protocol portion of the endpoint, either &apos;http&apos; or &apos;https&apos;</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>- (NSString *)protocol</Declaration>
-			
-			
-			<Anchor>//api/name/protocol</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3Request/endpointHost</TokenIdentifier>
-			<Abstract type="html">Returns the host portion of the endpoint.</Abstract>
-			<DeclaredIn>S3Request.h</DeclaredIn>			
-			
-			<Declaration>- (NSString *)endpointHost</Declaration>
-			
-			
-			<Anchor>//api/name/endpointHost</Anchor>
+			<Anchor>//api/name/permissionWithString:</Anchor>
 		</Token>
 		
 	</File>

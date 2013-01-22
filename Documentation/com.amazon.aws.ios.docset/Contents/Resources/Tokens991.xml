@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/S3CORSRuleUnmarshaller.html">
+	<File path="Classes/S3BucketUnmarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/S3CORSRuleUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Creates an S3CORSRule from an XML service repsonse.</Abstract>
-			<DeclaredIn>S3CORSRuleUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/S3BucketUnmarshaller</TokenIdentifier>
+			<Abstract type="html">Creates an S3Bucket from an XML service repsonse</Abstract>
+			<DeclaredIn>S3BucketUnmarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="991"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRuleUnmarshaller/setRule:</TokenIdentifier>
-			<Abstract type="html">The S3CORSRule represented by the XML</Abstract>
-			<DeclaredIn>S3CORSRuleUnmarshaller.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketUnmarshaller/setBucket:</TokenIdentifier>
+			<Abstract type="html">The S3Bucket represented by the XML</Abstract>
+			<DeclaredIn>S3BucketUnmarshaller.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, readonly) S3CORSRule *rule</Declaration>
+			<Declaration>@property (nonatomic, retain, readonly) S3Bucket *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/rule</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRuleUnmarshaller/rule</TokenIdentifier>
-			<Abstract type="html">The S3CORSRule represented by the XML</Abstract>
-			<DeclaredIn>S3CORSRuleUnmarshaller.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketUnmarshaller/bucket</TokenIdentifier>
+			<Abstract type="html">The S3Bucket represented by the XML</Abstract>
+			<DeclaredIn>S3BucketUnmarshaller.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, readonly) S3CORSRule *rule</Declaration>
+			<Declaration>@property (nonatomic, retain, readonly) S3Bucket *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/rule</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
 		</Token>
 		
 	</File>

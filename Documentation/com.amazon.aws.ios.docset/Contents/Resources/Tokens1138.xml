@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESIdentityVerificationAttributes.html">
+	<File path="Classes/SESGetSendStatisticsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESIdentityVerificationAttributes</TokenIdentifier>
-			<Abstract type="html">Identity Verification Attributes</Abstract>
-			<DeclaredIn>SESIdentityVerificationAttributes.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESGetSendStatisticsResponse</TokenIdentifier>
+			<Abstract type="html">Get Send Statistics Result</Abstract>
+			<DeclaredIn>SESGetSendStatisticsResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1138"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityVerificationAttributes/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendStatisticsResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SESGetSendStatisticsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendStatisticsResponse/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SESIdentityVerificationAttributes.h</DeclaredIn>			
+			<DeclaredIn>SESGetSendStatisticsResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -24,64 +35,45 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityVerificationAttributes/setVerificationStatus:</TokenIdentifier>
-			<Abstract type="html">The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;,
-&quot;Failed&quot;, or &quot;TemporaryFailure&quot;.
-&lt;p&gt;
-&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
-&lt;b&gt;Allowed Values: &lt;/b&gt;Pending, Success, Failed, TemporaryFailure</Abstract>
-			<DeclaredIn>SESIdentityVerificationAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendStatisticsResponse/setSendDataPoints:</TokenIdentifier>
+			<Abstract type="html">A list of data points, each of which represents 15 minutes of
+activity.</Abstract>
+			<DeclaredIn>SESGetSendStatisticsResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *verificationStatus</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *sendDataPoints</Declaration>
 			
 			
-			<Anchor>//api/name/verificationStatus</Anchor>
+			<Anchor>//api/name/sendDataPoints</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SESIdentityVerificationAttributes/verificationStatus</TokenIdentifier>
-			<Abstract type="html">The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;,
-&quot;Failed&quot;, or &quot;TemporaryFailure&quot;.
-&lt;p&gt;
-&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
-&lt;b&gt;Allowed Values: &lt;/b&gt;Pending, Success, Failed, TemporaryFailure</Abstract>
-			<DeclaredIn>SESIdentityVerificationAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetSendStatisticsResponse/sendDataPoints</TokenIdentifier>
+			<Abstract type="html">A list of data points, each of which represents 15 minutes of
+activity.</Abstract>
+			<DeclaredIn>SESGetSendStatisticsResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *verificationStatus</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *sendDataPoints</Declaration>
 			
 			
-			<Anchor>//api/name/verificationStatus</Anchor>
+			<Anchor>//api/name/sendDataPoints</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityVerificationAttributes/setVerificationToken:</TokenIdentifier>
-			<Abstract type="html">The verification token for a domain identity. Null for email address
-identities.</Abstract>
-			<DeclaredIn>SESIdentityVerificationAttributes.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendStatisticsResponse/sendDataPointsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the sendDataPoints array for the specified index</Abstract>
+			<DeclaredIn>SESGetSendStatisticsResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *verificationToken</Declaration>
+			<Declaration>- (SESSendDataPoint *)sendDataPointsObjectAtIndex:(int)index</Declaration>
 			
 			
-			<Anchor>//api/name/verificationToken</Anchor>
+			<Anchor>//api/name/sendDataPointsObjectAtIndex:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SESIdentityVerificationAttributes/verificationToken</TokenIdentifier>
-			<Abstract type="html">The verification token for a domain identity. Null for email address
-identities.</Abstract>
-			<DeclaredIn>SESIdentityVerificationAttributes.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *verificationToken</Declaration>
-			
-			
-			<Anchor>//api/name/verificationToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityVerificationAttributes/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendStatisticsResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SESIdentityVerificationAttributes.h</DeclaredIn>			
+			<DeclaredIn>SESGetSendStatisticsResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

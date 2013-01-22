@@ -1,75 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.html">
+	<File path="Classes/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest</TokenIdentifier>
-			<Abstract type="html">Disable Availability Zones For Load Balancer Request</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse</TokenIdentifier>
+			<Abstract type="html">Detach Load Balancer From Subnets Result</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>
 			
 			<NodeRef refid="904"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest/setLoadBalancerName:</TokenIdentifier>
-			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
-within the client AWS account.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/setException:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest/loadBalancerName</TokenIdentifier>
-			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
-within the client AWS account.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
-			
-			
-			<Anchor>//api/name/loadBalancerName</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest/setAvailabilityZones:</TokenIdentifier>
-			<Abstract type="html">A list of Availability Zones to be removed from the LoadBalancer.
-&lt;note&gt; There must be at least one Availability Zone registered with a
-LoadBalancer at all times. The client cannot remove all the
-Availability Zones from a LoadBalancer. Specified Availability Zones
-must be in the same Region. &lt;/note&gt;</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *availabilityZones</Declaration>
-			
-			
-			<Anchor>//api/name/availabilityZones</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest/availabilityZones</TokenIdentifier>
-			<Abstract type="html">A list of Availability Zones to be removed from the LoadBalancer.
-&lt;note&gt; There must be at least one Availability Zone registered with a
-LoadBalancer at all times. The client cannot remove all the
-Availability Zones from a LoadBalancer. Specified Availability Zones
-must be in the same Region. &lt;/note&gt;</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *availabilityZones</Declaration>
-			
-			
-			<Anchor>//api/name/availabilityZones</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new DisableAvailabilityZonesForLoadBalancerRequest object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -78,47 +35,45 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest/initWithLoadBalancerName:andAvailabilityZones:</TokenIdentifier>
-			<Abstract type="html">Constructs a new DisableAvailabilityZonesForLoadBalancerRequest object.
-Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/setSubnets:</TokenIdentifier>
+			<Abstract type="html">A list of subnet IDs removed from the configured set of subnets for
+the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithLoadBalancerName:(NSString *)theLoadBalancerName andAvailabilityZones:(NSMutableArray *)theAvailabilityZones</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theLoadBalancerName</Name>
-					<Abstract type="html">The name associated with the LoadBalancer.
-The name must be unique within the client AWS account.</Abstract>
-				</Parameter><Parameter>
-					<Name>theAvailabilityZones</Name>
-					<Abstract type="html">A list of Availability Zones to be removed
-from the LoadBalancer. &lt;note&gt; There must be at least one Availability
-Zone registered with a LoadBalancer at all times. The client cannot
-remove all the Availability Zones from a LoadBalancer. Specified
-Availability Zones must be in the same Region. &lt;/note&gt;</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
 			
-			<Anchor>//api/name/initWithLoadBalancerName:andAvailabilityZones:</Anchor>
+			
+			<Anchor>//api/name/subnets</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest/addAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">Adds a single object to availabilityZones.
-This function will alloc and init availabilityZones if not already done.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/subnets</TokenIdentifier>
+			<Abstract type="html">A list of subnet IDs removed from the configured set of subnets for
+the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
 			
-			<Declaration>- (void)addAvailabilityZone:(NSString *)availabilityZoneObject</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/addAvailabilityZone:</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/subnetsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the subnets array for the specified index</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)subnetsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/subnetsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

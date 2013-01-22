@@ -1,42 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSDeleteMessageRequest.html">
+	<File path="Classes/SQSDeleteMessageBatchRequestEntry.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteMessageRequest</TokenIdentifier>
-			<Abstract type="html">Delete Message Request</Abstract>
-			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteMessageBatchRequestEntry</TokenIdentifier>
+			<Abstract type="html">Delete Message Batch Request Entry</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequestEntry.h</DeclaredIn>
 			
 			<NodeRef refid="1284"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/setQueueUrl:</TokenIdentifier>
-			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
-			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequestEntry/setIdValue:</TokenIdentifier>
+			<Abstract type="html">An identifier for this particular receipt handle. This is used to
+communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch
+request need to be unique within the request.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequestEntry.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/idValue</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
-			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageBatchRequestEntry/idValue</TokenIdentifier>
+			<Abstract type="html">An identifier for this particular receipt handle. This is used to
+communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch
+request need to be unique within the request.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequestEntry.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/idValue</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/setReceiptHandle:</TokenIdentifier>
-			<Abstract type="html">The receipt handle associated with the message to delete.</Abstract>
-			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequestEntry/setReceiptHandle:</TokenIdentifier>
+			<Abstract type="html">A receipt handle.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSString *receiptHandle</Declaration>
 			
@@ -45,9 +49,9 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageRequest/receiptHandle</TokenIdentifier>
-			<Abstract type="html">The receipt handle associated with the message to delete.</Abstract>
-			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageBatchRequestEntry/receiptHandle</TokenIdentifier>
+			<Abstract type="html">A receipt handle.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSString *receiptHandle</Declaration>
 			
@@ -56,10 +60,10 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new DeleteMessageRequest object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequestEntry/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteMessageBatchRequestEntry object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSDeleteMessageBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -68,31 +72,32 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/initWithQueueUrl:andReceiptHandle:</TokenIdentifier>
-			<Abstract type="html">Constructs a new DeleteMessageRequest object.
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequestEntry/initWithIdValue:andReceiptHandle:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteMessageBatchRequestEntry object.
 Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSDeleteMessageBatchRequestEntry.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl andReceiptHandle:(NSString *)theReceiptHandle</Declaration>
+			<Declaration>- (id)initWithIdValue:(NSString *)theIdValue andReceiptHandle:(NSString *)theReceiptHandle</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>theQueueUrl</Name>
-					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+					<Name>theIdValue</Name>
+					<Abstract type="html">An identifier for this particular receipt handle.
+This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s
+of a batch request need to be unique within the request.</Abstract>
 				</Parameter><Parameter>
 					<Name>theReceiptHandle</Name>
-					<Abstract type="html">The receipt handle associated with the message
-to delete.</Abstract>
+					<Abstract type="html">A receipt handle.</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/initWithQueueUrl:andReceiptHandle:</Anchor>
+			<Anchor>//api/name/initWithIdValue:andReceiptHandle:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequestEntry/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			<DeclaredIn>SQSDeleteMessageBatchRequestEntry.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESVerifyDomainIdentityRequestMarshaller.html">
+	<File path="Classes/SESSetIdentityNotificationTopicResponseUnmarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainIdentityRequestMarshaller</TokenIdentifier>
-			<Abstract type="html">Verify Domain Identity Request Marshaller</Abstract>
-			<DeclaredIn>SESVerifyDomainIdentityRequestMarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityNotificationTopicResponseUnmarshaller</TokenIdentifier>
+			<Abstract type="html">Set Identity Notification Topic Result Unmarshaller</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicResponseUnmarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1180"/>
 		</Token>

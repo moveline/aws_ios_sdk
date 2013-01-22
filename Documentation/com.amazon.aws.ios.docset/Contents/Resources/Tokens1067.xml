@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/S3ListVersionsRequest.html">
+	<File path="Classes/S3ListObjectsResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/S3ListVersionsRequest</TokenIdentifier>
-			<Abstract type="html">Provides options for returning a list of summary information about the
-versions in a specified bucket.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListObjectsResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>
 			
 			<NodeRef refid="1067"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setPrefix:</TokenIdentifier>
-			<Abstract type="html">Optional parameter restricting the response to keys which begin with the
-specified prefix. You can use prefixes to separate a bucket into
-different sets of keys in a way similar to how a file system uses
-folders.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setObjectSummaries:</TokenIdentifier>
+			<Abstract type="html">The list of buckets</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *objectSummaries</Declaration>
+			
+			
+			<Anchor>//api/name/objectSummaries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/objectSummaries</TokenIdentifier>
+			<Abstract type="html">The list of buckets</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *objectSummaries</Declaration>
+			
+			
+			<Anchor>//api/name/objectSummaries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setBucketName:</TokenIdentifier>
+			<Abstract type="html">The bucket name</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucketName</Declaration>
+			
+			
+			<Anchor>//api/name/bucketName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/bucketName</TokenIdentifier>
+			<Abstract type="html">The bucket name</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucketName</Declaration>
+			
+			
+			<Anchor>//api/name/bucketName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setPrefix:</TokenIdentifier>
+			<Abstract type="html">The prefix parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
 			
@@ -27,12 +67,9 @@ folders.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/prefix</TokenIdentifier>
-			<Abstract type="html">Optional parameter restricting the response to keys which begin with the
-specified prefix. You can use prefixes to separate a bucket into
-different sets of keys in a way similar to how a file system uses
-folders.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/prefix</TokenIdentifier>
+			<Abstract type="html">The prefix parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
 			
@@ -41,110 +78,31 @@ folders.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setKeyMarker:</TokenIdentifier>
-			<Abstract type="html">Optional parameter indicating where in the sorted list of all versions in
-the specified bucket to begin returning results. Results are always
-ordered first lexicographically (i.e. alphabetically) and then from most
-recent version to least recent version. If a keyMarker is used without a
-versionIdMarker, results begin immediately after that key&apos;s last version.
-When a keyMarker is used with a versionIdMarker, results begin
-immediately after the version with the specified key and version ID.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setMarker:</TokenIdentifier>
+			<Abstract type="html">The marker parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *keyMarker</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *marker</Declaration>
 			
 			
-			<Anchor>//api/name/keyMarker</Anchor>
+			<Anchor>//api/name/marker</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/keyMarker</TokenIdentifier>
-			<Abstract type="html">Optional parameter indicating where in the sorted list of all versions in
-the specified bucket to begin returning results. Results are always
-ordered first lexicographically (i.e. alphabetically) and then from most
-recent version to least recent version. If a keyMarker is used without a
-versionIdMarker, results begin immediately after that key&apos;s last version.
-When a keyMarker is used with a versionIdMarker, results begin
-immediately after the version with the specified key and version ID.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/marker</TokenIdentifier>
+			<Abstract type="html">The marker parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *keyMarker</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *marker</Declaration>
 			
 			
-			<Anchor>//api/name/keyMarker</Anchor>
+			<Anchor>//api/name/marker</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setVersionIdMarker:</TokenIdentifier>
-			<Abstract type="html">Optional parameter indicating where in the sorted list of all versions in
-the specified bucket to begin returning results. Results are always
-ordered first lexicographically (i.e. alphabetically) and then from most
-recent version to least recent version. A keyMarker must be specified
-when specifying a versionIdMarker. Results begin immediately after the
-version with the specified key and version ID.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *versionIdMarker</Declaration>
-			
-			
-			<Anchor>//api/name/versionIdMarker</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/versionIdMarker</TokenIdentifier>
-			<Abstract type="html">Optional parameter indicating where in the sorted list of all versions in
-the specified bucket to begin returning results. Results are always
-ordered first lexicographically (i.e. alphabetically) and then from most
-recent version to least recent version. A keyMarker must be specified
-when specifying a versionIdMarker. Results begin immediately after the
-version with the specified key and version ID.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *versionIdMarker</Declaration>
-			
-			
-			<Anchor>//api/name/versionIdMarker</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setDelimiter:</TokenIdentifier>
-			<Abstract type="html">Optional parameter that causes keys that contain the same string between
-the prefix and the first occurrence of the delimiter to be rolled up into
-a single result element in the commonPrefixes list. These rolled-up keys
-are not returned elsewhere in the response. The most commonly used
-delimiter is &quot;/&quot;, which simulates a hierarchical organization similar to
-a file system directory structure.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
-			
-			
-			<Anchor>//api/name/delimiter</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/delimiter</TokenIdentifier>
-			<Abstract type="html">Optional parameter that causes keys that contain the same string between
-the prefix and the first occurrence of the delimiter to be rolled up into
-a single result element in the commonPrefixes list. These rolled-up keys
-are not returned elsewhere in the response. The most commonly used
-delimiter is &quot;/&quot;, which simulates a hierarchical organization similar to
-a file system directory structure.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
-			
-			
-			<Anchor>//api/name/delimiter</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setMaxKeys:</TokenIdentifier>
-			<Abstract type="html">Optional parameter indicating the maximum number of results to include in
-the response. Amazon S3 might return fewer than this, but will not return
-more. Even if maxKeys is not specified, Amazon S3 will limit the number
-of results in the response.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setMaxKeys:</TokenIdentifier>
+			<Abstract type="html">The maxKeys parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic) NSInteger maxKeys</Declaration>
 			
@@ -153,17 +111,84 @@ of results in the response.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/maxKeys</TokenIdentifier>
-			<Abstract type="html">Optional parameter indicating the maximum number of results to include in
-the response. Amazon S3 might return fewer than this, but will not return
-more. Even if maxKeys is not specified, Amazon S3 will limit the number
-of results in the response.</Abstract>
-			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/maxKeys</TokenIdentifier>
+			<Abstract type="html">The maxKeys parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic) NSInteger maxKeys</Declaration>
 			
 			
 			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setDelimiter:</TokenIdentifier>
+			<Abstract type="html">The delimiter parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/delimiter</TokenIdentifier>
+			<Abstract type="html">The delimiter parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setIsTruncated:</TokenIdentifier>
+			<Abstract type="html">Indicates if this is  a complete listing or if caller needs
+to make additional requests.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) bool isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/isTruncated</TokenIdentifier>
+			<Abstract type="html">Indicates if this is  a complete listing or if caller needs
+to make additional requests.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) bool isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setCommonPrefixes:</TokenIdentifier>
+			<Abstract type="html">A list of common prefixes.  Will only be specified for requests
+that include a delimiter.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *commonPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/commonPrefixes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/commonPrefixes</TokenIdentifier>
+			<Abstract type="html">A list of common prefixes.  Will only be specified for requests
+that include a delimiter.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *commonPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/commonPrefixes</Anchor>
 		</Token>
 		
 	</File>

@@ -1,61 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SimpleDBInvalidQueryExpressionException.html">
+	<File path="Classes/SimpleDBGetAttributesResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBInvalidQueryExpressionException</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;
-The specified query expression syntax is not valid.
-&lt;/p&gt;</Abstract>
-			<DeclaredIn>SimpleDBInvalidQueryExpressionException.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBGetAttributesResponse</TokenIdentifier>
+			<Abstract type="html">Get Attributes Result</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1387"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBInvalidQueryExpressionException/setBoxUsage:</TokenIdentifier>
-			<Abstract type="html">The value of the BoxUsage property for this object.</Abstract>
-			<DeclaredIn>SimpleDBInvalidQueryExpressionException.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSNumber *boxUsage</Declaration>
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
 			
 			
-			<Anchor>//api/name/boxUsage</Anchor>
+			<Anchor>//api/name/setException:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBInvalidQueryExpressionException/boxUsage</TokenIdentifier>
-			<Abstract type="html">The value of the BoxUsage property for this object.</Abstract>
-			<DeclaredIn>SimpleDBInvalidQueryExpressionException.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSNumber *boxUsage</Declaration>
+			<Declaration>- (id)init</Declaration>
 			
 			
-			<Anchor>//api/name/boxUsage</Anchor>
+			<Anchor>//api/name/init</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBInvalidQueryExpressionException/initWithMessage:</TokenIdentifier>
-			<Abstract type="html">Initialize the exception with a message.</Abstract>
-			<DeclaredIn>SimpleDBInvalidQueryExpressionException.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesResponse/setAttributes:</TokenIdentifier>
+			<Abstract type="html">The list of attributes returned by the operation.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesResponse.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>message</Name>
-					<Abstract type="html">The message.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
 			
-			<Anchor>//api/name/initWithMessage:</Anchor>
+			
+			<Anchor>//api/name/attributes</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBInvalidQueryExpressionException/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBGetAttributesResponse/attributes</TokenIdentifier>
+			<Abstract type="html">The list of attributes returned by the operation.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesResponse/attributesObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the attributes array for the specified index</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (SimpleDBAttribute *)attributesObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/attributesObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SimpleDBInvalidQueryExpressionException.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBGetAttributesResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

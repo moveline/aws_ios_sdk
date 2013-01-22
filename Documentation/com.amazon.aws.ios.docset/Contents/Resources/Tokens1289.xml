@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSDeleteQueueResponse.html">
+	<File path="Classes/SQSDeleteMessageBatchResponseUnmarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteQueueResponse</TokenIdentifier>
-			<Abstract type="html">Delete Queue</Abstract>
-			<DeclaredIn>SQSDeleteQueueResponse.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteMessageBatchResponseUnmarshaller</TokenIdentifier>
+			<Abstract type="html">Delete Message Batch Result Unmarshaller</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchResponseUnmarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1289"/>
 		</Token>

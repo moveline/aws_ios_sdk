@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingTooManyPoliciesException.html">
+	<File path="Classes/ElasticLoadBalancingSubnetNotFoundException.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingTooManyPoliciesException</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSubnetNotFoundException</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;
-Quota for number of policies for this LoadBalancer has already been
-reached.
+One or more subnets were not found.
 &lt;/p&gt;</Abstract>
-			<DeclaredIn>ElasticLoadBalancingTooManyPoliciesException.h</DeclaredIn>
+			<DeclaredIn>ElasticLoadBalancingSubnetNotFoundException.h</DeclaredIn>
 			
 			<NodeRef refid="969"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingTooManyPoliciesException/initWithMessage:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingSubnetNotFoundException/initWithMessage:</TokenIdentifier>
 			<Abstract type="html">Initialize the exception with a message.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingTooManyPoliciesException.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingSubnetNotFoundException.h</DeclaredIn>			
 			
 			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
 			<Parameters>
@@ -31,10 +30,10 @@ reached.
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingTooManyPoliciesException/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingSubnetNotFoundException/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingTooManyPoliciesException.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingSubnetNotFoundException.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

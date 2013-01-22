@@ -1,48 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/S3ErrorResponseHandler.html">
+	<File path="Classes/S3DeleteObjectsResultUnmarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/S3ErrorResponseHandler</TokenIdentifier>
-			<Abstract type="html">Parse an error response from Amazon S3 and construct the corresponding
-AWSServiceException object.</Abstract>
-			<DeclaredIn>S3ErrorResponseHandler.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectsResultUnmarshaller</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>S3DeleteObjectsResultUnmarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1027"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3ErrorResponseHandler/setException:</TokenIdentifier>
-			<Abstract type="html">The exception represented by the XML</Abstract>
-			<DeclaredIn>S3ErrorResponseHandler.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectsResultUnmarshaller/setDeletedObjects:</TokenIdentifier>
+			<Abstract type="html">The list of DeletedObjects represented by the XML</Abstract>
+			<DeclaredIn>S3DeleteObjectsResultUnmarshaller.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, readonly) AmazonServiceException *exception</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *deletedObjects</Declaration>
 			
 			
-			<Anchor>//api/name/exception</Anchor>
+			<Anchor>//api/name/deletedObjects</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/S3ErrorResponseHandler/exception</TokenIdentifier>
-			<Abstract type="html">The exception represented by the XML</Abstract>
-			<DeclaredIn>S3ErrorResponseHandler.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteObjectsResultUnmarshaller/deletedObjects</TokenIdentifier>
+			<Abstract type="html">The list of DeletedObjects represented by the XML</Abstract>
+			<DeclaredIn>S3DeleteObjectsResultUnmarshaller.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, readonly) AmazonServiceException *exception</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *deletedObjects</Declaration>
 			
 			
-			<Anchor>//api/name/exception</Anchor>
+			<Anchor>//api/name/deletedObjects</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/S3ErrorResponseHandler/initWithStatusCode:</TokenIdentifier>
-			<Abstract type="html">Initialize the object with the an HTTP status code</Abstract>
-			<DeclaredIn>S3ErrorResponseHandler.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectsResultUnmarshaller/setDeleteErrors:</TokenIdentifier>
+			<Abstract type="html">The list of DeleteErrors represented by the XML</Abstract>
+			<DeclaredIn>S3DeleteObjectsResultUnmarshaller.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithStatusCode:(NSInteger)statusCode</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *deleteErrors</Declaration>
 			
 			
-			<Anchor>//api/name/initWithStatusCode:</Anchor>
+			<Anchor>//api/name/deleteErrors</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteObjectsResultUnmarshaller/deleteErrors</TokenIdentifier>
+			<Abstract type="html">The list of DeleteErrors represented by the XML</Abstract>
+			<DeclaredIn>S3DeleteObjectsResultUnmarshaller.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *deleteErrors</Declaration>
+			
+			
+			<Anchor>//api/name/deleteErrors</Anchor>
 		</Token>
 		
 	</File>

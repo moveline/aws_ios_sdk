@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSGetQueueUrlResponseUnmarshaller.html">
+	<File path="Classes/SQSGetQueueAttributesRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSGetQueueUrlResponseUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Get Queue Url Result Unmarshaller</Abstract>
-			<DeclaredIn>SQSGetQueueUrlResponseUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSGetQueueAttributesRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Get Queue Attributes Request Marshaller</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1298"/>
 		</Token>

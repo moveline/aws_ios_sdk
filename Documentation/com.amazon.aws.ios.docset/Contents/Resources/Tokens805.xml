@@ -1,65 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/EC2Tag.html">
+	<File path="Classes/EC2Storage.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/EC2Tag</TokenIdentifier>
-			<Abstract type="html">Tag</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Storage</TokenIdentifier>
+			<Abstract type="html">Storage</Abstract>
+			<DeclaredIn>EC2Storage.h</DeclaredIn>
 			
 			<NodeRef refid="805"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/setKey:</TokenIdentifier>
-			<Abstract type="html">The tag&apos;s key.</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/EC2Tag/key</TokenIdentifier>
-			<Abstract type="html">The tag&apos;s key.</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/setValue:</TokenIdentifier>
-			<Abstract type="html">The tag&apos;s value.</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
-			
-			
-			<Anchor>//api/name/value</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/EC2Tag/value</TokenIdentifier>
-			<Abstract type="html">The tag&apos;s value.</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
-			
-			
-			<Anchor>//api/name/value</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new Tag object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Storage/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			<DeclaredIn>EC2Storage.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -68,47 +24,32 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/initWithKey:andValue:</TokenIdentifier>
-			<Abstract type="html">Constructs a new Tag object.
-Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Storage/setS3:</TokenIdentifier>
+			<Abstract type="html">The details of S3 storage for bundling a Windows instance.</Abstract>
+			<DeclaredIn>EC2Storage.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithKey:(NSString *)theKey andValue:(NSString *)theValue</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theKey</Name>
-					<Abstract type="html">The tag&apos;s key.</Abstract>
-				</Parameter><Parameter>
-					<Name>theValue</Name>
-					<Abstract type="html">The tag&apos;s value.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, retain) EC2S3Storage *s3</Declaration>
 			
-			<Anchor>//api/name/initWithKey:andValue:</Anchor>
+			
+			<Anchor>//api/name/s3</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/initWithKey:</TokenIdentifier>
-			<Abstract type="html">Constructs a new Tag object.
-Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Storage/s3</TokenIdentifier>
+			<Abstract type="html">The details of S3 storage for bundling a Windows instance.</Abstract>
+			<DeclaredIn>EC2Storage.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithKey:(NSString *)theKey</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theKey</Name>
-					<Abstract type="html">The tag&apos;s key.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, retain) EC2S3Storage *s3</Declaration>
 			
-			<Anchor>//api/name/initWithKey:</Anchor>
+			
+			<Anchor>//api/name/s3</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Storage/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			<DeclaredIn>EC2Storage.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

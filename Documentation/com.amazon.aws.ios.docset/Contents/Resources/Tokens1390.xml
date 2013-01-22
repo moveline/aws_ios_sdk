@@ -1,81 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SimpleDBListDomainsRequest.html">
+	<File path="Classes/SimpleDBInvalidNumberPredicatesException.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBListDomainsRequest</TokenIdentifier>
-			<Abstract type="html">List Domains Request</Abstract>
-			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBInvalidNumberPredicatesException</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Too many predicates exist in the query expression.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>SimpleDBInvalidNumberPredicatesException.h</DeclaredIn>
 			
 			<NodeRef refid="1390"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBListDomainsRequest/setMaxNumberOfDomains:</TokenIdentifier>
-			<Abstract type="html">The maximum number of domain names you want returned. The range is 1
-to 100. The default setting is 100.</Abstract>
-			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBInvalidNumberPredicatesException/setBoxUsage:</TokenIdentifier>
+			<Abstract type="html">The value of the BoxUsage property for this object.</Abstract>
+			<DeclaredIn>SimpleDBInvalidNumberPredicatesException.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSNumber *maxNumberOfDomains</Declaration>
+			<Declaration>@property (nonatomic, retain) NSNumber *boxUsage</Declaration>
 			
 			
-			<Anchor>//api/name/maxNumberOfDomains</Anchor>
+			<Anchor>//api/name/boxUsage</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBListDomainsRequest/maxNumberOfDomains</TokenIdentifier>
-			<Abstract type="html">The maximum number of domain names you want returned. The range is 1
-to 100. The default setting is 100.</Abstract>
-			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBInvalidNumberPredicatesException/boxUsage</TokenIdentifier>
+			<Abstract type="html">The value of the BoxUsage property for this object.</Abstract>
+			<DeclaredIn>SimpleDBInvalidNumberPredicatesException.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSNumber *maxNumberOfDomains</Declaration>
+			<Declaration>@property (nonatomic, retain) NSNumber *boxUsage</Declaration>
 			
 			
-			<Anchor>//api/name/maxNumberOfDomains</Anchor>
+			<Anchor>//api/name/boxUsage</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBListDomainsRequest/setNextToken:</TokenIdentifier>
-			<Abstract type="html">A string informing Amazon SimpleDB where to start the next list of
-domain names.</Abstract>
-			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBInvalidNumberPredicatesException/initWithMessage:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a message.</Abstract>
+			<DeclaredIn>SimpleDBInvalidNumberPredicatesException.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/initWithMessage:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBListDomainsRequest/nextToken</TokenIdentifier>
-			<Abstract type="html">A string informing Amazon SimpleDB where to start the next list of
-domain names.</Abstract>
-			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBListDomainsRequest/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new ListDomainsRequest object.  Callers should use the
-property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
-			
-			<Declaration>- (id)init</Declaration>
-			
-			
-			<Anchor>//api/name/init</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBListDomainsRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBInvalidNumberPredicatesException/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBInvalidNumberPredicatesException.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

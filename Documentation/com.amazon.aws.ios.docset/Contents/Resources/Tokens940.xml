@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingPolicyAttributeTypeDescription.html">
+	<File path="Classes/ElasticLoadBalancingPolicyAttributeDescription.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingPolicyAttributeTypeDescription</TokenIdentifier>
-			<Abstract type="html">Policy Attribute Type Description</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingPolicyAttributeDescription</TokenIdentifier>
+			<Abstract type="html">Policy Attribute Description</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyAttributeDescription.h</DeclaredIn>
 			
 			<NodeRef refid="940"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeTypeDescription/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeDescription/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingPolicyAttributeDescription.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -24,9 +24,9 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeTypeDescription/setAttributeName:</TokenIdentifier>
-			<Abstract type="html">The name of the attribute associated with the policy type.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeDescription/setAttributeName:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute associated with the policy.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyAttributeDescription.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSString *attributeName</Declaration>
 			
@@ -35,9 +35,9 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyAttributeTypeDescription/attributeName</TokenIdentifier>
-			<Abstract type="html">The name of the attribute associated with the policy type.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyAttributeDescription/attributeName</TokenIdentifier>
+			<Abstract type="html">The name of the attribute associated with the policy.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyAttributeDescription.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSString *attributeName</Declaration>
 			
@@ -46,106 +46,32 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeTypeDescription/setAttributeType:</TokenIdentifier>
-			<Abstract type="html">The type of attribute. For example, Boolean, Integer, etc.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeDescription/setAttributeValue:</TokenIdentifier>
+			<Abstract type="html">The value of the attribute associated with the policy.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyAttributeDescription.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *attributeType</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/attributeType</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyAttributeTypeDescription/attributeType</TokenIdentifier>
-			<Abstract type="html">The type of attribute. For example, Boolean, Integer, etc.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyAttributeDescription/attributeValue</TokenIdentifier>
+			<Abstract type="html">The value of the attribute associated with the policy.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyAttributeDescription.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *attributeType</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/attributeType</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeTypeDescription/setDescriptionValue:</TokenIdentifier>
-			<Abstract type="html">A human-readable description of the attribute.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
-			
-			
-			<Anchor>//api/name/descriptionValue</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyAttributeTypeDescription/descriptionValue</TokenIdentifier>
-			<Abstract type="html">A human-readable description of the attribute.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
-			
-			
-			<Anchor>//api/name/descriptionValue</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeTypeDescription/setDefaultValue:</TokenIdentifier>
-			<Abstract type="html">The default value of the attribute, if applicable.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *defaultValue</Declaration>
-			
-			
-			<Anchor>//api/name/defaultValue</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyAttributeTypeDescription/defaultValue</TokenIdentifier>
-			<Abstract type="html">The default value of the attribute, if applicable.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *defaultValue</Declaration>
-			
-			
-			<Anchor>//api/name/defaultValue</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeTypeDescription/setCardinality:</TokenIdentifier>
-			<Abstract type="html">The cardinality of the attribute. Valid Values: &lt;ul&gt; &lt;li&gt;ONE(1) :
-Single value required&lt;/li&gt; &lt;li&gt;ZEROORONE(0..1) : Up to one value can
-be supplied&lt;/li&gt; &lt;li&gt;ZEROORMORE(0..*) : Optional. Multiple values
-are allowed&lt;/li&gt; &lt;li&gt;ONEORMORE(1..*0) : Required. Multiple values
-are allowed&lt;/li&gt; &lt;/ul&gt;</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *cardinality</Declaration>
-			
-			
-			<Anchor>//api/name/cardinality</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyAttributeTypeDescription/cardinality</TokenIdentifier>
-			<Abstract type="html">The cardinality of the attribute. Valid Values: &lt;ul&gt; &lt;li&gt;ONE(1) :
-Single value required&lt;/li&gt; &lt;li&gt;ZEROORONE(0..1) : Up to one value can
-be supplied&lt;/li&gt; &lt;li&gt;ZEROORMORE(0..*) : Optional. Multiple values
-are allowed&lt;/li&gt; &lt;li&gt;ONEORMORE(1..*0) : Required. Multiple values
-are allowed&lt;/li&gt; &lt;/ul&gt;</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *cardinality</Declaration>
-			
-			
-			<Anchor>//api/name/cardinality</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeTypeDescription/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyAttributeDescription/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingPolicyAttributeTypeDescription.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingPolicyAttributeDescription.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

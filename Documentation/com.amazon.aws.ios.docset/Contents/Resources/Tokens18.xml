@@ -148,17 +148,6 @@ This property is read-only.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/delegate</TokenIdentifier>
-			<Abstract type="html">Returns the delegate object for the request</Abstract>
-			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
-			
-			<Declaration>- (id&lt;AmazonServiceRequestDelegate&gt;)delegate</Declaration>
-			
-			
-			<Anchor>//api/name/delegate</Anchor>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/setDelegate:</TokenIdentifier>
 			<Abstract type="html">Sets the delegate object for the request.</Abstract>
 			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
@@ -185,6 +174,18 @@ All methods inheriting this method must call [super validate] first to check if 
 			
 			
 			<Anchor>//api/name/validate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/cancel</TokenIdentifier>
+			<Abstract type="html">Cancel asynchronous operations. The thread invoked this request needs to call this method to cancel the operation. Once cancelled, it cannot be resumed. Create another request object and invoke it again.
+It has no effect on synchronous operations.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
 		</Token>
 		
 	</File>

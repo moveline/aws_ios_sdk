@@ -59,8 +59,8 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/setTimeout:</TokenIdentifier>
-			<Abstract type="html">The amount of time to wait (in seconds) for data to be transfered over
-an established, open connection before the connection times out and is closed.</Abstract>
+			<Abstract type="html">The amount of time to wait (in seconds) for a request to complete.  This
+includes the time to establish connection and transfer data.</Abstract>
 			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, assign) NSTimeInterval timeout</Declaration>
@@ -71,14 +71,40 @@ an established, open connection before the connection times out and is closed.</
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AmazonAbstractWebServiceClient/timeout</TokenIdentifier>
-			<Abstract type="html">The amount of time to wait (in seconds) for data to be transfered over
-an established, open connection before the connection times out and is closed.</Abstract>
+			<Abstract type="html">The amount of time to wait (in seconds) for a request to complete.  This
+includes the time to establish connection and transfer data.</Abstract>
 			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, assign) NSTimeInterval timeout</Declaration>
 			
 			
 			<Anchor>//api/name/timeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/setConnectionTimeout:</TokenIdentifier>
+			<Abstract type="html">The timeoutInterval to applied to the underlying NSURLConnection.  This
+value has a minimum effective value as defined by the operation and version
+of iOS.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval connectionTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/connectionTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonAbstractWebServiceClient/connectionTimeout</TokenIdentifier>
+			<Abstract type="html">The timeoutInterval to applied to the underlying NSURLConnection.  This
+value has a minimum effective value as defined by the operation and version
+of iOS.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval connectionTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/connectionTimeout</Anchor>
 		</Token>
 		
 		<Token>

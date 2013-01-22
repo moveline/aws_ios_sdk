@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SimpleDBDeletableItem.html">
+	<File path="Classes/SimpleDBBatchPutAttributesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBDeletableItem</TokenIdentifier>
-			<Abstract type="html">Deletable Item</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBBatchPutAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Batch Put Attributes Request</Abstract>
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>
 			
 			<NodeRef refid="1367"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeletableItem/setName:</TokenIdentifier>
-			<Abstract type="html">The value of the Name property for this object.</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchPutAttributesRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which the attributes are being stored.</Abstract>
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/domainName</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDeletableItem/name</TokenIdentifier>
-			<Abstract type="html">The value of the Name property for this object.</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBBatchPutAttributesRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which the attributes are being stored.</Abstract>
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/domainName</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeletableItem/setAttributes:</TokenIdentifier>
-			<Abstract type="html">The value of the Attributes property for this object.</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchPutAttributesRequest/setItems:</TokenIdentifier>
+			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/items</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDeletableItem/attributes</TokenIdentifier>
-			<Abstract type="html">The value of the Attributes property for this object.</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBBatchPutAttributesRequest/items</TokenIdentifier>
+			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/items</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeletableItem/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new DeletableItem object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchPutAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new BatchPutAttributesRequest object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -68,34 +68,43 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeletableItem/initWithName:andAttributes:</TokenIdentifier>
-			<Abstract type="html">Constructs a new DeletableItem object.
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchPutAttributesRequest/initWithDomainName:andItems:</TokenIdentifier>
+			<Abstract type="html">Constructs a new BatchPutAttributesRequest object.
 Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>- (id)initWithName:(NSString *)theName andAttributes:(NSMutableArray *)theAttributes</Declaration>
+			<Declaration>- (id)initWithDomainName:(NSString *)theDomainName andItems:(NSMutableArray *)theItems</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theDomainName</Name>
+					<Abstract type="html">The name of the domain in which the attributes
+are being stored.</Abstract>
+				</Parameter><Parameter>
+					<Name>theItems</Name>
+					<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/initWithName:andAttributes:</Anchor>
+			<Anchor>//api/name/initWithDomainName:andItems:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeletableItem/addAttribute:</TokenIdentifier>
-			<Abstract type="html">Adds a single object to attributes.
-This function will alloc and init attributes if not already done.</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchPutAttributesRequest/addItem:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to items.
+This function will alloc and init items if not already done.</Abstract>
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>- (void)addAttribute:(SimpleDBAttribute *)attributeObject</Declaration>
+			<Declaration>- (void)addItem:(SimpleDBReplaceableItem *)itemObject</Declaration>
 			
 			
-			<Anchor>//api/name/addAttribute:</Anchor>
+			<Anchor>//api/name/addItem:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeletableItem/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchPutAttributesRequest/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SimpleDBDeletableItem.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBBatchPutAttributesRequest.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

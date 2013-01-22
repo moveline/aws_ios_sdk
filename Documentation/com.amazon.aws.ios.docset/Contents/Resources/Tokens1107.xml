@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESDeleteIdentityRequestMarshaller.html">
+	<File path="Classes/S3UploadPartResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESDeleteIdentityRequestMarshaller</TokenIdentifier>
-			<Abstract type="html">Delete Identity Request Marshaller</Abstract>
-			<DeclaredIn>SESDeleteIdentityRequestMarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/S3UploadPartResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a uploadPart operation.</Abstract>
+			<DeclaredIn>S3UploadPartResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1107"/>
 		</Token>

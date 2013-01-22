@@ -1,32 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SimpleDBSelectResponse.html">
+	<File path="Classes/SimpleDBReplaceableItem.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBSelectResponse</TokenIdentifier>
-			<Abstract type="html">Select Result</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBReplaceableItem</TokenIdentifier>
+			<Abstract type="html">Replaceable Item</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>
 			
 			<NodeRef refid="1412"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/setException:</TokenIdentifier>
-			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the replaceable item.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
 			
-			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/setException:</Anchor>
+			<Anchor>//api/name/name</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBReplaceableItem/name</TokenIdentifier>
+			<Abstract type="html">The name of the replaceable item.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/setAttributes:</TokenIdentifier>
+			<Abstract type="html">The list of attributes for a replaceable item.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBReplaceableItem/attributes</TokenIdentifier>
+			<Abstract type="html">The list of attributes for a replaceable item.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ReplaceableItem object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -35,69 +68,59 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/setItems:</TokenIdentifier>
-			<Abstract type="html">A list of items that match the select expression.</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/initWithName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ReplaceableItem object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
+			<Declaration>- (id)initWithName:(NSString *)theName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theName</Name>
+					<Abstract type="html">The name of the replaceable item.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/initWithName:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBSelectResponse/items</TokenIdentifier>
-			<Abstract type="html">A list of items that match the select expression.</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/initWithName:andAttributes:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ReplaceableItem object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
+			<Declaration>- (id)initWithName:(NSString *)theName andAttributes:(NSMutableArray *)theAttributes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theName</Name>
+					<Abstract type="html">The name of the replaceable item.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributes</Name>
+					<Abstract type="html">The list of attributes for a replaceable item.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/initWithName:andAttributes:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">An opaque token indicating that more items than
-&lt;code&gt;MaxNumberOfItems&lt;/code&gt; were matched, the response size exceeded
-1 megabyte, or the execution time exceeded 5 seconds.</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/addAttribute:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributes.
+This function will alloc and init attributes if not already done.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			<Declaration>- (void)addAttribute:(SimpleDBReplaceableAttribute *)attributeObject</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/addAttribute:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBSelectResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">An opaque token indicating that more items than
-&lt;code&gt;MaxNumberOfItems&lt;/code&gt; were matched, the response size exceeded
-1 megabyte, or the execution time exceeded 5 seconds.</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/itemsObjectAtIndex:</TokenIdentifier>
-			<Abstract type="html">Returns a value from the items array for the specified index</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
-			
-			<Declaration>- (SimpleDBItem *)itemsObjectAtIndex:(int)index</Declaration>
-			
-			
-			<Anchor>//api/name/itemsObjectAtIndex:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

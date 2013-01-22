@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SimpleDBTooManyRequestedAttributesException.html">
+	<File path="Classes/SimpleDBRequestTimeoutException.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBTooManyRequestedAttributesException</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBRequestTimeoutException</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;
-Too many attributes requested.
+A timeout occurred when attempting to query the specified domain with
+specified query expression.
 &lt;/p&gt;</Abstract>
-			<DeclaredIn>SimpleDBTooManyRequestedAttributesException.h</DeclaredIn>
+			<DeclaredIn>SimpleDBRequestTimeoutException.h</DeclaredIn>
 			
 			<NodeRef refid="1414"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBTooManyRequestedAttributesException/setBoxUsage:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBRequestTimeoutException/setBoxUsage:</TokenIdentifier>
 			<Abstract type="html">The value of the BoxUsage property for this object.</Abstract>
-			<DeclaredIn>SimpleDBTooManyRequestedAttributesException.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBRequestTimeoutException.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSNumber *boxUsage</Declaration>
 			
@@ -25,9 +26,9 @@ Too many attributes requested.
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBTooManyRequestedAttributesException/boxUsage</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBRequestTimeoutException/boxUsage</TokenIdentifier>
 			<Abstract type="html">The value of the BoxUsage property for this object.</Abstract>
-			<DeclaredIn>SimpleDBTooManyRequestedAttributesException.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBRequestTimeoutException.h</DeclaredIn>			
 			
 			<Declaration>@property (nonatomic, retain) NSNumber *boxUsage</Declaration>
 			
@@ -36,9 +37,9 @@ Too many attributes requested.
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBTooManyRequestedAttributesException/initWithMessage:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBRequestTimeoutException/initWithMessage:</TokenIdentifier>
 			<Abstract type="html">Initialize the exception with a message.</Abstract>
-			<DeclaredIn>SimpleDBTooManyRequestedAttributesException.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBRequestTimeoutException.h</DeclaredIn>			
 			
 			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
 			<Parameters>
@@ -52,10 +53,10 @@ Too many attributes requested.
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBTooManyRequestedAttributesException/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBRequestTimeoutException/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SimpleDBTooManyRequestedAttributesException.h</DeclaredIn>			
+			<DeclaredIn>SimpleDBRequestTimeoutException.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

@@ -1,69 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingCreateLoadBalancerListenersRequest.html">
+	<File path="Classes/ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLoadBalancerListenersRequest</TokenIdentifier>
-			<Abstract type="html">Create Load Balancer Listeners Request</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse</TokenIdentifier>
+			<Abstract type="html">Create L B Cookie Stickiness Policy Result</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse.h</DeclaredIn>
 			
 			<NodeRef refid="859"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLoadBalancerListenersRequest/setLoadBalancerName:</TokenIdentifier>
-			<Abstract type="html">The name of the new LoadBalancer. The name must be unique within your
-AWS account.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/setException:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingCreateLoadBalancerListenersRequest/loadBalancerName</TokenIdentifier>
-			<Abstract type="html">The name of the new LoadBalancer. The name must be unique within your
-AWS account.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
-			
-			
-			<Anchor>//api/name/loadBalancerName</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLoadBalancerListenersRequest/setListeners:</TokenIdentifier>
-			<Abstract type="html">A list of &lt;code&gt;LoadBalancerPort&lt;/code&gt;, &lt;code&gt;InstancePort&lt;/code&gt;,
-&lt;code&gt;Protocol&lt;/code&gt;, and &lt;code&gt;SSLCertificateId&lt;/code&gt; items.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *listeners</Declaration>
-			
-			
-			<Anchor>//api/name/listeners</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingCreateLoadBalancerListenersRequest/listeners</TokenIdentifier>
-			<Abstract type="html">A list of &lt;code&gt;LoadBalancerPort&lt;/code&gt;, &lt;code&gt;InstancePort&lt;/code&gt;,
-&lt;code&gt;Protocol&lt;/code&gt;, and &lt;code&gt;SSLCertificateId&lt;/code&gt; items.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *listeners</Declaration>
-			
-			
-			<Anchor>//api/name/listeners</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLoadBalancerListenersRequest/init</TokenIdentifier>
-			<Abstract type="html">Default constructor for a new CreateLoadBalancerListenersRequest object.  Callers should use the
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -72,45 +35,10 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLoadBalancerListenersRequest/initWithLoadBalancerName:andListeners:</TokenIdentifier>
-			<Abstract type="html">Constructs a new CreateLoadBalancerListenersRequest object.
-Callers should use properties to initialize any additional object members.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>			
-			
-			<Declaration>- (id)initWithLoadBalancerName:(NSString *)theLoadBalancerName andListeners:(NSMutableArray *)theListeners</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theLoadBalancerName</Name>
-					<Abstract type="html">The name of the new LoadBalancer. The name
-must be unique within your AWS account.</Abstract>
-				</Parameter><Parameter>
-					<Name>theListeners</Name>
-					<Abstract type="html">A list of &lt;code&gt;LoadBalancerPort&lt;/code&gt;,
-&lt;code&gt;InstancePort&lt;/code&gt;, &lt;code&gt;Protocol&lt;/code&gt;, and
-&lt;code&gt;SSLCertificateId&lt;/code&gt; items.</Abstract>
-				</Parameter>
-			</Parameters>
-			
-			<Anchor>//api/name/initWithLoadBalancerName:andListeners:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLoadBalancerListenersRequest/addListener:</TokenIdentifier>
-			<Abstract type="html">Adds a single object to listeners.
-This function will alloc and init listeners if not already done.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>			
-			
-			<Declaration>- (void)addListener:(ElasticLoadBalancingListener *)listenerObject</Declaration>
-			
-			
-			<Anchor>//api/name/addListener:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLoadBalancerListenersRequest/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersRequest.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSReceiptHandleIsInvalidException.html">
+	<File path="Classes/SQSMessageNotInflightException.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSReceiptHandleIsInvalidException</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSMessageNotInflightException</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;
-The receipt handle provided is not valid.
+The message referred to is not in flight.
 &lt;/p&gt;</Abstract>
-			<DeclaredIn>SQSReceiptHandleIsInvalidException.h</DeclaredIn>
+			<DeclaredIn>SQSMessageNotInflightException.h</DeclaredIn>
 			
 			<NodeRef refid="1314"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiptHandleIsInvalidException/initWithMessage:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSMessageNotInflightException/initWithMessage:</TokenIdentifier>
 			<Abstract type="html">Initialize the exception with a message.</Abstract>
-			<DeclaredIn>SQSReceiptHandleIsInvalidException.h</DeclaredIn>			
+			<DeclaredIn>SQSMessageNotInflightException.h</DeclaredIn>			
 			
 			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
 			<Parameters>
@@ -30,10 +30,10 @@ The receipt handle provided is not valid.
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiptHandleIsInvalidException/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSMessageNotInflightException/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SQSReceiptHandleIsInvalidException.h</DeclaredIn>			
+			<DeclaredIn>SQSMessageNotInflightException.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

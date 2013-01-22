@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingBackendServerDescription.html">
+	<File path="Classes/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingBackendServerDescription</TokenIdentifier>
-			<Abstract type="html">Backend Server Description</Abstract>
-			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse</TokenIdentifier>
+			<Abstract type="html">Attach Load Balancer To Subnets Result</Abstract>
+			<DeclaredIn>ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.h</DeclaredIn>
 			
 			<NodeRef refid="844"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -24,72 +35,43 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/setInstancePort:</TokenIdentifier>
-			<Abstract type="html">Provides the port on which the back-end server is listening.
-&lt;p&gt;
-&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
-&lt;b&gt;Range: &lt;/b&gt;1 - 65535&lt;br/&gt;</Abstract>
-			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse/setSubnets:</TokenIdentifier>
+			<Abstract type="html">A list of subnet IDs added for the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSNumber *instancePort</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/instancePort</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingBackendServerDescription/instancePort</TokenIdentifier>
-			<Abstract type="html">Provides the port on which the back-end server is listening.
-&lt;p&gt;
-&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
-&lt;b&gt;Range: &lt;/b&gt;1 - 65535&lt;br/&gt;</Abstract>
-			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse/subnets</TokenIdentifier>
+			<Abstract type="html">A list of subnet IDs added for the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSNumber *instancePort</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/instancePort</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/setPolicyNames:</TokenIdentifier>
-			<Abstract type="html">Provides a list of policy names enabled for the back-end server.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse/subnetsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the subnets array for the specified index</Abstract>
+			<DeclaredIn>ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *policyNames</Declaration>
+			<Declaration>- (NSString *)subnetsObjectAtIndex:(int)index</Declaration>
 			
 			
-			<Anchor>//api/name/policyNames</Anchor>
+			<Anchor>//api/name/subnetsObjectAtIndex:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingBackendServerDescription/policyNames</TokenIdentifier>
-			<Abstract type="html">Provides a list of policy names enabled for the back-end server.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
-			
-			<Declaration>@property (nonatomic, retain) NSMutableArray *policyNames</Declaration>
-			
-			
-			<Anchor>//api/name/policyNames</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/addPolicyName:</TokenIdentifier>
-			<Abstract type="html">Adds a single object to policyNames.
-This function will alloc and init policyNames if not already done.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
-			
-			<Declaration>- (void)addPolicyName:(NSString *)policyNameObject</Declaration>
-			
-			
-			<Anchor>//api/name/addPolicyName:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			<DeclaredIn>ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

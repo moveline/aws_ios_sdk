@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SNSConfirmSubscriptionResponseUnmarshaller.html">
+	<File path="Classes/SNSAddPermissionRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SNSConfirmSubscriptionResponseUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Confirm Subscription Result Unmarshaller</Abstract>
-			<DeclaredIn>SNSConfirmSubscriptionResponseUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSAddPermissionRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Add Permission Request Marshaller</Abstract>
+			<DeclaredIn>SNSAddPermissionRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1197"/>
 		</Token>

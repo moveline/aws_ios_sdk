@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSDeleteMessageBatchResponseEntry.html">
+	<File path="Classes/SQSCreateQueueResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteMessageBatchResponseEntry</TokenIdentifier>
-			<Abstract type="html">Delete Message Batch Result Entry</Abstract>
-			<DeclaredIn>SQSDeleteMessageBatchResponseEntry.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSCreateQueueResponse</TokenIdentifier>
+			<Abstract type="html">Create Queue Result</Abstract>
+			<DeclaredIn>SQSCreateQueueResponse.h</DeclaredIn>
 			
 			<NodeRef refid="1281"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchResponseEntry/setException:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSCreateQueueResponse/setException:</TokenIdentifier>
 			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
-			<DeclaredIn>SQSDeleteMessageBatchResponseEntry.h</DeclaredIn>			
+			<DeclaredIn>SQSCreateQueueResponse.h</DeclaredIn>			
 			
 			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
 			
@@ -23,10 +23,10 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchResponseEntry/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSCreateQueueResponse/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SQSDeleteMessageBatchResponseEntry.h</DeclaredIn>			
+			<DeclaredIn>SQSCreateQueueResponse.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -35,32 +35,32 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchResponseEntry/setIdValue:</TokenIdentifier>
-			<Abstract type="html">Represents a successfully deleted message.</Abstract>
-			<DeclaredIn>SQSDeleteMessageBatchResponseEntry.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SQSCreateQueueResponse/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">The URL for the created SQS queue.</Abstract>
+			<DeclaredIn>SQSCreateQueueResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
 			
 			
-			<Anchor>//api/name/idValue</Anchor>
+			<Anchor>//api/name/queueUrl</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageBatchResponseEntry/idValue</TokenIdentifier>
-			<Abstract type="html">Represents a successfully deleted message.</Abstract>
-			<DeclaredIn>SQSDeleteMessageBatchResponseEntry.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SQSCreateQueueResponse/queueUrl</TokenIdentifier>
+			<Abstract type="html">The URL for the created SQS queue.</Abstract>
+			<DeclaredIn>SQSCreateQueueResponse.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
 			
 			
-			<Anchor>//api/name/idValue</Anchor>
+			<Anchor>//api/name/queueUrl</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchResponseEntry/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSCreateQueueResponse/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SQSDeleteMessageBatchResponseEntry.h</DeclaredIn>			
+			<DeclaredIn>SQSCreateQueueResponse.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

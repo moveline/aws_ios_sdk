@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/S3BucketNameUtilities.html">
+	<File path="Classes/S3BucketLifecycleConfigurationRuleUnmarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/S3BucketNameUtilities</TokenIdentifier>
-			<Abstract type="html">Utilities for validating bucket names</Abstract>
-			<DeclaredIn>S3BucketNameUtilities.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/S3BucketLifecycleConfigurationRuleUnmarshaller</TokenIdentifier>
+			<Abstract type="html">Creates an S3BucketLifecycleConfigurationRule from an XML service repsonse.</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRuleUnmarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="981"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/S3BucketNameUtilities/validateBucketName:</TokenIdentifier>
-			<Abstract type="html">Validate that the supplied bucket name conforms to Amazon S3 bucket name
-constraints.</Abstract>
-			<DeclaredIn>S3BucketNameUtilities.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRuleUnmarshaller/setRule:</TokenIdentifier>
+			<Abstract type="html">The S3BucketLifecycleConfigurationRule represented by the XML</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRuleUnmarshaller.h</DeclaredIn>			
 			
-			<Declaration>+ (AmazonClientException *)validateBucketName:(NSString *)theBucketName</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theBucketName</Name>
-					<Abstract type="html">The name of the bucket.
-@throws AWSClientException If the bucket name violates the bucket name constraints.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, readonly) S3BucketLifecycleConfigurationRule *rule</Declaration>
 			
-			<Anchor>//api/name/validateBucketName:</Anchor>
+			
+			<Anchor>//api/name/rule</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationRuleUnmarshaller/rule</TokenIdentifier>
+			<Abstract type="html">The S3BucketLifecycleConfigurationRule represented by the XML</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRuleUnmarshaller.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) S3BucketLifecycleConfigurationRule *rule</Declaration>
+			
+			
+			<Anchor>//api/name/rule</Anchor>
 		</Token>
 		
 	</File>

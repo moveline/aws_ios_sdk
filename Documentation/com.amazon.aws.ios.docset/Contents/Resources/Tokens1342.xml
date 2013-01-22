@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SecurityTokenServiceFederatedUserUnmarshaller.html">
+	<File path="Classes/SQSSetQueueAttributesRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceFederatedUserUnmarshaller</TokenIdentifier>
-			<Abstract type="html">Federated User Unmarshaller</Abstract>
-			<DeclaredIn>SecurityTokenServiceFederatedUserUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSSetQueueAttributesRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Set Queue Attributes Request Marshaller</Abstract>
+			<DeclaredIn>SQSSetQueueAttributesRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1342"/>
 		</Token>

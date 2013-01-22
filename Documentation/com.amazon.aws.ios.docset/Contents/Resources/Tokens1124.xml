@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SESGetIdentityVerificationAttributesResponse.html">
+	<File path="Classes/SESGetIdentityNotificationAttributesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityVerificationAttributesResponse</TokenIdentifier>
-			<Abstract type="html">Get Identity Verification Attributes Result</Abstract>
-			<DeclaredIn>SESGetIdentityVerificationAttributesResponse.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityNotificationAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Get Identity Notification Attributes Request</Abstract>
+			<DeclaredIn>SESGetIdentityNotificationAttributesRequest.h</DeclaredIn>
 			
 			<NodeRef refid="1124"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityVerificationAttributesResponse/setException:</TokenIdentifier>
-			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
-			<DeclaredIn>SESGetIdentityVerificationAttributesResponse.h</DeclaredIn>			
-			
-			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
-			
-			
-			<Anchor>//api/name/setException:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityVerificationAttributesResponse/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityNotificationAttributesRequest/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>SESGetIdentityVerificationAttributesResponse.h</DeclaredIn>			
+			<DeclaredIn>SESGetIdentityNotificationAttributesRequest.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -35,43 +24,44 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityVerificationAttributesResponse/setVerificationAttributes:</TokenIdentifier>
-			<Abstract type="html">A map of Identities to IdentityVerificationAttributes objects.</Abstract>
-			<DeclaredIn>SESGetIdentityVerificationAttributesResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityNotificationAttributesRequest/setIdentities:</TokenIdentifier>
+			<Abstract type="html">A list of one or more identities.</Abstract>
+			<DeclaredIn>SESGetIdentityNotificationAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableDictionary *verificationAttributes</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributes</Anchor>
+			<Anchor>//api/name/identities</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/SESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
-			<Abstract type="html">A map of Identities to IdentityVerificationAttributes objects.</Abstract>
-			<DeclaredIn>SESGetIdentityVerificationAttributesResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetIdentityNotificationAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">A list of one or more identities.</Abstract>
+			<DeclaredIn>SESGetIdentityNotificationAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSMutableDictionary *verificationAttributes</Declaration>
+			<Declaration>@property (nonatomic, retain) NSMutableArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributes</Anchor>
+			<Anchor>//api/name/identities</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityVerificationAttributesResponse/verificationAttributesValueForKey:</TokenIdentifier>
-			<Abstract type="html">Returns a value from the verificationAttributes dictionary for the specified key.</Abstract>
-			<DeclaredIn>SESGetIdentityVerificationAttributesResponse.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityNotificationAttributesRequest/addIdentity:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to identities.
+This function will alloc and init identities if not already done.</Abstract>
+			<DeclaredIn>SESGetIdentityNotificationAttributesRequest.h</DeclaredIn>			
 			
-			<Declaration>- (SESIdentityVerificationAttributes *)verificationAttributesValueForKey:(NSString *)theKey</Declaration>
+			<Declaration>- (void)addIdentity:(NSString *)identityObject</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributesValueForKey:</Anchor>
+			<Anchor>//api/name/addIdentity:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityVerificationAttributesResponse/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityNotificationAttributesRequest/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>SESGetIdentityVerificationAttributesResponse.h</DeclaredIn>			
+			<DeclaredIn>SESGetIdentityNotificationAttributesRequest.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

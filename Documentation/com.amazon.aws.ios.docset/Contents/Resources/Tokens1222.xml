@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SNSListSubscriptionsResponseUnmarshaller.html">
+	<File path="Classes/SNSListSubscriptionsByTopicRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsResponseUnmarshaller</TokenIdentifier>
-			<Abstract type="html">List Subscriptions Result Unmarshaller</Abstract>
-			<DeclaredIn>SNSListSubscriptionsResponseUnmarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsByTopicRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">List Subscriptions By Topic Request Marshaller</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1222"/>
 		</Token>

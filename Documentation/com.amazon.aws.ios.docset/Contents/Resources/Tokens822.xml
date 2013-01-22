@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/EC2VolumeDetail.html">
+	<File path="Classes/EC2VolumeAttachment.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/EC2VolumeDetail</TokenIdentifier>
-			<Abstract type="html">Volume Detail</Abstract>
-			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2VolumeAttachment</TokenIdentifier>
+			<Abstract type="html">Volume Attachment</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>
 			
 			<NodeRef refid="822"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeDetail/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/init</TokenIdentifier>
 			<Abstract type="html">Default constructor for a new  object.  Callers should use the
 property methods to initialize this object after creating it.</Abstract>
-			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>			
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
 			
 			<Declaration>- (id)init</Declaration>
 			
@@ -24,32 +24,150 @@ property methods to initialize this object after creating it.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeDetail/setSize:</TokenIdentifier>
-			<Abstract type="html">The value of the Size property for this object.</Abstract>
-			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setVolumeId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSNumber *size</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/size</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeDetail/size</TokenIdentifier>
-			<Abstract type="html">The value of the Size property for this object.</Abstract>
-			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/volumeId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
 			
-			<Declaration>@property (nonatomic, retain) NSNumber *size</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/size</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeDetail/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setInstanceId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/instanceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setDevice:</TokenIdentifier>
+			<Abstract type="html">How the device is exposed to the instance (e.g.,
+&lt;code&gt;/dev/sdh&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/device</TokenIdentifier>
+			<Abstract type="html">How the device is exposed to the instance (e.g.,
+&lt;code&gt;/dev/sdh&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;attaching, attached, detaching, detached</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;attaching, attached, detaching, detached</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setAttachTime:</TokenIdentifier>
+			<Abstract type="html">Timestamp when this attachment initiated.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *attachTime</Declaration>
+			
+			
+			<Anchor>//api/name/attachTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/attachTime</TokenIdentifier>
+			<Abstract type="html">Timestamp when this attachment initiated.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *attachTime</Declaration>
+			
+			
+			<Anchor>//api/name/attachTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setDeleteOnTermination:</TokenIdentifier>
+			<Abstract type="html">` &lt;p&gt; Whether this volume will be deleted or not when the associated
+instance is terminated.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) bool deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">` &lt;p&gt; Whether this volume will be deleted or not when the associated
+instance is terminated.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) bool deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/description</TokenIdentifier>
 			<Abstract type="html">Returns a string representation of this object; useful for testing and
 debugging.</Abstract>
-			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>			
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
 			
 			<Declaration>- (NSString *)description</Declaration>
 			

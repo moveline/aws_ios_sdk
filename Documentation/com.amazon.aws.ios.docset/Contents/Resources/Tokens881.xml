@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequestMarshaller.html">
+	<File path="Classes/ElasticLoadBalancingDeleteLoadBalancerResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequestMarshaller</TokenIdentifier>
-			<Abstract type="html">Deregister Instances From Load Balancer Request Marshaller</Abstract>
-			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequestMarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerResponse</TokenIdentifier>
+			<Abstract type="html">Delete Load Balancer</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerResponse.h</DeclaredIn>
 			
 			<NodeRef refid="881"/>
 		</Token>

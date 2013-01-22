@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/SQSSendMessageRequestMarshaller.html">
+	<File path="Classes/SQSSendMessageBatchRequestMarshaller.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/SQSSendMessageRequestMarshaller</TokenIdentifier>
-			<Abstract type="html">Send Message Request Marshaller</Abstract>
-			<DeclaredIn>SQSSendMessageRequestMarshaller.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSSendMessageBatchRequestMarshaller</TokenIdentifier>
+			<Abstract type="html">Send Message Batch Request Marshaller</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestMarshaller.h</DeclaredIn>
 			
 			<NodeRef refid="1332"/>
 		</Token>
